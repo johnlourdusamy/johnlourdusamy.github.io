@@ -64,5 +64,82 @@ let jsq_questions = [
 			"d": "SI"
 		},
 		"answer": "b"
+	},
+		{
+		"id": 7,
+		"question": "Temperature is a measure of total kinetic energy of the particles in a system.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "b"
+	},
+		{
+		"id": 8,
+		"question": "If one coulomb of charge is flowing in one minute, it is called ‘ampere’.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "b"
+	},
+		{
+		"id": 9,
+		"question": "Amount of substance gives the number of particles present in a substance.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "a"
+	},
+		{
+		"id": 10,
+		"question": "Intensity of light coming from a candle is approximately equal to one ‘candela’.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "a"
+	},
+		{
+		"id": 11,
+		"question": "Quartz clocks are used in GPS devices.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "b"
+	},
+		{
+		"id": 12,
+		"question": "Angle formed at the top of a cone is an example for ‘plane angle’.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "b"
+	},
+		{
+		"id": 13,
+		"question": "The number 4.582 can be rounded off as 4.58.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "a"
 	}
 ];

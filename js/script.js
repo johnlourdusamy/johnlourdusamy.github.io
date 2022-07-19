@@ -9,7 +9,7 @@
 	questions = questions.sort(() => Math.random() - 0.5);
 	let question_index = 0;	
 	let score = 0;
-	let time_left = 30;
+	let time_left = 45;
 	let timer_fun = '';
 	let current_question_completed = false;
 

@@ -6,8 +6,8 @@
 
 	// include question array object;
 	let questions = jsq_questions;
-
-	let question_index = 0;
+	questions = questions.sort(() => Math.random() - 0.5);
+	let question_index = 0;	
 	let score = 0;
 	let time_left = 30;
 	let timer_fun = '';
@@ -92,7 +92,7 @@
 
 		disableOptions();
 		stopTimer();
-		next_button.style.visibility = 'visible';
+		next_button.style.visibility = 'visible';  
 	};
 
 	// show next question and options

@@ -1,0 +1,64 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>fill in the blanks</title>
+
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="../css/quizyfillblank.css">
+  
+  <style>
+  body{
+    font-family:Helvetica, Arial, Verdana;
+  }
+  
+  .text-style1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:16px;
+    margin-top:20px;
+    line-height:24px;
+  }
+  
+  .text-style2{
+    font-style:italic;
+    color:#777;
+  }
+  
+  .text-style3{
+    display: flex;
+	justify-content: space-evenly;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .text-style3 div {
+	margin-right: 1rem;  
+  }
+  </style>
+  
+</head>
+<body>
+
+  <h1>Fill in the blanks</h1>
+  
+  <div id="main" role="main">
+    
+    <div id="tutorial-fillblank">
+      <div class="text-style2">Drag the items to the correct blank spaces<br>(the correct answers will appear once you drag the last item)</div>
+      <div id="fillblank-text" class='text-style1'></div><br><br>
+      <div id="fillblank-ph" class='text-style3'></div>
+    </div>
+
+  <script src="../js/jquery-1.7.1.min.js"></script>
+  <script src="../js/jquery-ui-1.8.17.custom.min.js"></script>
+  <script src="../js/jquery.quizyfillblank.min.js"></script>
+  
+  <script>
+    $('#tutorial-fillblank').quizyFillBlank({
+          textItems:['1. The solid angle is measured in ', '. <br/>2. The coldness or hotness of a substance is expressed by ', '<br/>3. is used to measure electric current.', '<br/>4. One mole of a substance contains', 'atoms or molecules. <br/>5. The uncertainty in measurement is called as', '. <br/>6. The closeness of the measured value to the original value is', '. <br/>7. The intersection of two straight lines gives us ', '.'],
+          anItems:['temperature', '6.023 x 10<sup>23</sup>', 'steradius', 'Ammeter', 'accurate', 'error', 'plane angle', 'solid angle', 'celsius', 'ampere' ], 
+          anItemsCorrect:[2,0,3,1,5,4,6],
+          blockSize:150
+        });
+  </script>
+</body>
+</html>

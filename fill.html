@@ -1,0 +1,65 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>fill in the blanks</title>
+
+  <meta name="viewport" content="width=device-width">
+  	<link rel="stylesheet" href="./css/quiz/style.css">
+  <link rel="stylesheet" href="./css/fillin/quizyfillblank.css">
+  
+  <style>
+  body{
+    font-family:Helvetica, Arial, Verdana;
+	color: white;
+  }
+  
+  .text-style1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:16px;
+    margin-top:20px;
+    line-height:24px;
+  }
+  
+  .text-style2{
+    font-style:italic;
+    color:white;
+  }
+  
+  .text-style3{
+    display: flex;
+	justify-content: space-evenly;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .text-style3 div {
+	margin-right: 1rem;  
+  }
+  
+  .container {  
+     display: grid;  
+    grid-gap: 5px;  
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+	}
+  </style>
+  
+</head>
+<body>
+  <h1>Fill-in</h1>
+  
+  <div id="main" role="main" class="container">
+    
+    <div id="tutorial-fillblank">
+      <div class="text-style2">Drag the items to the correct blank spaces<br>(the correct answers will appear once you drag the last item)</div>
+      <div id="fillblank-text" class='text-style1'></div><br><br>
+      <div id="fillblank-ph" class='text-style3'></div>
+    </div>
+</div>
+
+  <script src="js/fillin/jquery-1.7.1.min.js"></script>
+  <script src="js/fillin/jquery-ui-1.8.17.custom.min.js"></script>
+  <script src="js/fillin/jquery.quizyfillblank.min.js"></script>
+  <script src="js/fillin/physics/l01/questions.js"></script>
+</body>
+</html>

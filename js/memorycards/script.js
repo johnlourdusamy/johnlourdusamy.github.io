@@ -85,7 +85,7 @@ function shuffleCard() {
         let imgTag = card.querySelector(".back-view img");
 		let iTag = card.querySelector(".back-view i");
         setTimeout(() => {
-            imgTag.src = `images/img-${questions[index].id}.png`;
+            imgTag.src = `images/memorycards/img-${questions[index].id}.png`;
 			iTag.setAttribute('data-txt', questions[index].answer);
         }, 500);
         card.addEventListener("click", flipCard);

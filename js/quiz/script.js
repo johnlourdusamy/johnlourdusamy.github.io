@@ -280,13 +280,11 @@ getQuestions();
 
 	// get subject
 	const getSubject = () => {
-		document.getElementById("subjects_hidden").value = subject_button.options[subject_button.selectedIndex].value;
 		return subject_button.options[subject_button.selectedIndex].value;
 	};
 	
 	// get lesson
 	const getLesson = () => {
-		document.getElementById("lessons_hidden").value = lesson_button.options[lesson_button.selectedIndex].value;
 		return lesson_button.options[lesson_button.selectedIndex].value;
 	};
 	

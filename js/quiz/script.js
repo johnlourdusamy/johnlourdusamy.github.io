@@ -289,7 +289,7 @@
     let url = "./js/quiz/" + getSubject + "/" + getLesson + "/" + "questions.js";
     try {
         let res = await fetch(url);
-        return await res.js();
+        return await res.json();
     } catch (error) {
         console.log(error);
     }
@@ -299,7 +299,7 @@
 async function renderUsers() {
     let users = await getQuestions();
     let html = '';
-	console.log(users);
+	
     users.forEach(user => {
         let htmlSegment = `<div class="user">
                              <h2>${user.question} ${user.answer}</h2>
@@ -307,6 +307,7 @@ async function renderUsers() {
 
         html += htmlSegment;
     });
+	console.log(htmlSegment);
 
 }
 	

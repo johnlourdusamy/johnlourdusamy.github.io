@@ -4,17 +4,9 @@
 */
 (() => {
 	
-	console.log('john1');
-
-fetch('./js/quiz/chemistry/l01/questions.json')
-  .then(response => response.json())
-  .then(data => {
-    console.log(data.jsq_questions.question);
-    console.log(data.jsq_questions.answer);
-  })
 
 	// include question array object;
-	let questions = jsq_questions;
+	let questions = jsq_questions_physics_l01;
 	console.log(questions);
 	questions = questions.sort(() => Math.random() - 0.5);
 	let question_index = 0;	

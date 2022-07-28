@@ -7,7 +7,7 @@
 
 
 	// include question array object;
-	let questions = 'jsq_questions_' + getSubject() + '_' + getLesson();
+	let questions = jsq_questions;
 	console.log(questions);
 	questions = questions.sort(() => Math.random() - 0.5);
 	let question_index = 0;	
@@ -21,8 +21,6 @@
 	const start_button = document.getElementById("jsq_start");
 	const subject_button = document.getElementById("subjects");
 	const lesson_button = document.getElementById("lessons");
-	const subject_hidden_button = document.getElementById("subjects_hidden");
-	const lesson_hidden_button = document.getElementById("lessons_hidden");
 
 
 	const replaceHTMLtags = text => text.replace(/</g, "&lt;").replace(/>/g, "&gt;");

@@ -291,7 +291,7 @@ getQuestions();
 	};
 	
 	async function getQuestions() {
-    let url = "./js/quiz/" + document.getElementById("subjects_hidden").value + "/" + document.getElementById("lessons_hidden").value + "/" + "questions.js";
+    let url = "./js/quiz/" + getSubject() + "/" + getLesson() + "/" + "questions.js";
 	console.log(url);
    /* try {
         let res = await fetch(url);

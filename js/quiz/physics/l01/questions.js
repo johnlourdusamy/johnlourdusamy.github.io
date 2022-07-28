@@ -1,4 +1,4 @@
-let jsq_questions_physics_l01 = [
+let jsq_questions = [
 	{
 		"id": 1,
 		"question": "Electric current is a ______quantity",

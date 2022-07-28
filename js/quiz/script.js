@@ -272,6 +272,7 @@
 		document.querySelector("#jsq_ifo_box").remove();
 		//showQuestion();
 		getQuestions(getSubject(), getLesson());
+			renderUsers();
 	};
 
 	// get subject
@@ -298,6 +299,7 @@
 async function renderUsers() {
     let users = await getQuestions();
     let html = '';
+	console.log(users);
     users.forEach(user => {
         let htmlSegment = `<div class="user">
                              <h2>${user.question} ${user.answer}</h2>
@@ -308,9 +310,9 @@ async function renderUsers() {
 
 }
 	
-	renderUsers();
+
 	
-		console.log(users);
+		
 	
 	next_button.addEventListener("click", nextQuestion);
 	prev_button.addEventListener("click", prevQuestion);

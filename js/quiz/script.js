@@ -6,7 +6,7 @@
 	
 	console.log('john1');
 
-fetch('./chemistry/l01/questions.json')
+fetch('./js/quiz/chemistry/l01/questions.json')
   .then(response => response.json())
   .then(data => {
     console.log(data.jsq_questions.question);

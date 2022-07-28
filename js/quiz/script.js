@@ -274,8 +274,8 @@
 		document.querySelector(".jsq_footer").removeAttribute("style");
 		document.querySelector("#jsq_ifo_box").remove();
 		//showQuestion();
-		getQuestions(getSubject(), getLesson());
-			renderUsers();
+
+getQuestions();
 	};
 
 	// get subject

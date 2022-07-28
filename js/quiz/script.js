@@ -293,13 +293,13 @@ getQuestions();
 	async function getQuestions() {
     let url = "./js/quiz/" + document.getElementById("subjects_hidden").value + "/" + document.getElementById("lessons_hidden").value + "/" + "questions.js";
 	console.log(url);
-    try {
+   /* try {
         let res = await fetch(url);
 		console.log(res.json());
         return await res.json();
     } catch (error) {
         console.log(error);
-    }
+    } */
 	}
 	
 	

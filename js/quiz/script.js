@@ -7,7 +7,7 @@
 
 
 	// include question array object;
-	let questions = jsq_questions + '_' + getSubject + '_' + getLesson;
+	let questions = 'jsq_questions_' + getSubject + '_' + getLesson;
 	console.log(questions);
 	questions = questions.sort(() => Math.random() - 0.5);
 	let question_index = 0;	

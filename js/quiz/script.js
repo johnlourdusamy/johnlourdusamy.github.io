@@ -4,7 +4,12 @@
 */
 (() => {
 
-
+fetch('./js/quiz/chemistry/l01/questions.json')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data.jsq_questions.question);
+    console.log(data.jsq_questions.answer);
+  })
 
 	// include question array object;
 	let questions = jsq_questions;
@@ -275,15 +280,6 @@
 
 	};
 	
-	async function getJsonFiles() {
-		const urls = ["./js/quiz/physics/l01/questions.json", "./js/quiz/chemistry/l01/questions.json"];
-		const data = await Promise.all(urls.map((url) => fetch(url).then((e) => e.json())))
-		const finalResult = data;
-		console.log(finalResult);
-	}
-	
-	getJsonFiles();
-
 	// get subject
 	const getSubject = () => {
 		return subject_button.options[subject_button.selectedIndex].value;

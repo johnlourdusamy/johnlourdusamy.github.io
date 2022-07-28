@@ -293,8 +293,8 @@ getQuestions();
 	console.log(url);
     try {
         let res = await fetch(url);
-		console.log(res.json());
-        return await res.json();
+		console.log(res.js());
+        return await res.js();
     } catch (error) {
         console.log(error);
     } 

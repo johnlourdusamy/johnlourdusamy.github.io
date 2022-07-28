@@ -291,15 +291,15 @@ getQuestions();
 	};
 	
 	async function getQuestions() {
-    let url = "./js/quiz/" + getSubject() + "/" + getLesson() + "/" + "questions.js";
+    let url = "./js/quiz/" + "chemistry" + "/" + "l01" + "/" + "questions.js";
 	console.log(url);
-   /* try {
+    try {
         let res = await fetch(url);
 		console.log(res.json());
         return await res.json();
     } catch (error) {
         console.log(error);
-    } */
+    } 
 	}
 	
 	

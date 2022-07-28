@@ -274,6 +274,16 @@
 		//showQuestion();
 
 	};
+	
+	async function getJsonFiles() {
+		const urls = ["json1.json", "json2.json"];
+		const matchString = 'Dony'
+		const data = await Promise.all(urls.map((url) => fetch(url).then((e) => e.json())))
+		const finalResult = data;
+		console.log(finalResult);
+	}
+	
+	getJsonFiles();
 
 	// get subject
 	const getSubject = () => {

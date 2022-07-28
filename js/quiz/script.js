@@ -276,9 +276,8 @@
 	};
 	
 	async function getJsonFiles() {
-		const urls = ["./js/quiz/physics/l01/questions.js", "./js/quiz/chemistry/l01/questions.js"];
-		const matchString = 'Dony'
-		const data = await Promise.all(urls.map((url) => fetch(url).then((e) => e.js())))
+		const urls = ["./js/quiz/physics/l01/questions.json", "./js/quiz/chemistry/l01/questions.json"];
+		const data = await Promise.all(urls.map((url) => fetch(url).then((e) => e.json())))
 		const finalResult = data;
 		console.log(finalResult);
 	}

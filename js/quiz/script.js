@@ -289,6 +289,7 @@
     let url = "./js/quiz/" + getSubject + "/" + getLesson + "/" + "questions.js";
     try {
         let res = await fetch(url);
+		console.log(res.json());
         return await res.json();
     } catch (error) {
         console.log(error);

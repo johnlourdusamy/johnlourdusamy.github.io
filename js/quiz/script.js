@@ -21,6 +21,9 @@
 	const start_button = document.getElementById("jsq_start");
 	const subject_button = document.getElementById("subjects");
 	const lesson_button = document.getElementById("lessons");
+	const subject_hidden_button = document.getElementById("subjects_hidden");
+	const lesson_hidden_button = document.getElementById("lessons_hidden");
+
 
 	const replaceHTMLtags = text => text.replace(/</g, "&lt;").replace(/>/g, "&gt;");
 	const stopTimer = () => {
@@ -277,16 +280,18 @@
 
 	// get subject
 	const getSubject = () => {
+		document.getElementById("subjects_hidden").value = subject_button.options[subject_button.selectedIndex].value;
 		return subject_button.options[subject_button.selectedIndex].value;
 	};
 	
 	// get lesson
 	const getLesson = () => {
+		document.getElementById("lessons_hidden").value = lesson_button.options[lesson_button.selectedIndex].value;
 		return lesson_button.options[lesson_button.selectedIndex].value;
 	};
 	
-	async function getQuestions(getSubject, getLesson) {
-    let url = "./js/quiz/" + getSubject + "/" + getLesson + "/" + "questions.js";
+	async function getQuestions() {
+    let url = "./js/quiz/" + document.getElementById("subjects_hidden").value + "/" + document.getElementById("lessons_hidden").value + "/" + "questions.js";
     try {
         let res = await fetch(url);
 		console.log(res.json());

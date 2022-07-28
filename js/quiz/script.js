@@ -4,10 +4,61 @@
 */
 (() => {
 	
+	const questionsobjects = [
+	    jsq_questions_physics_l01,
+        jsq_questions_physics_l02,
+	    jsq_questions_chemistry_l01
+	    ];
+
+
+let optionList = document.getElementById('rec_mode').options;
+let options = [
+  {
+    text: 'Physics 1',
+    value: 'jsq_questions_physics_l01'
+  },
+  {
+    text: 'Physics 2',
+    value: 'jsq_questions_physics_l02',
+    selected: true
+  },
+  {
+    text: 'Chemistry 3',
+    value: 'jsq_questions_chemistry_l01'
+  }
+];
+
+options.forEach(option =>
+  optionList.add(
+    new Option(option.text, option.value, option.selected)
+  )
+);
+
+const value = document.getElementById('rec_mode').value;
+
+document.getElementById('rec_mode').addEventListener("change", function(){
+	
+		const questionsobjects = [
+	    jsq_questions_physics_l01,
+        jsq_questions_physics_l02,
+	    jsq_questions_chemistry_l01
+	    ];
+
+	
+	console.log(this.value);
+	
+	if(questionsobjects.includes(this.value)){
+     console.log("YES in array")
+	 console.log(questionsobjects.findIndex(item => item === this.value));
+     }else{
+    console.log(this.value + " NOT in array")
+    }
+});
+
 
 	// include question array object;
-	let questions = jsq_questions_physics_l01;
-	console.log(questions);
+	let questions = questionsobjects[0];
+
 	questions = questions.sort(() => Math.random() - 0.5);
 	let question_index = 0;	
 	let score = 0;
@@ -271,17 +322,18 @@
 		document.querySelector(".jsq_footer").removeAttribute("style");
 		document.querySelector("#jsq_ifo_box").remove();
 		//showQuestion();
+		build();
 
 	};
 	
 	// get subject
 	const getSubject = () => {
-		return subject_button.options[subject_button.selectedIndex].value;
+		document.getElementById("subj").value = subject_button.options[subject_button.selectedIndex].value;
 	};
 	
 	// get lesson
 	const getLesson = () => {
-		return lesson_button.options[lesson_button.selectedIndex].value;
+		document.getElementById("less").value = lesson_button.options[lesson_button.selectedIndex].value;
 	};
 	
 		

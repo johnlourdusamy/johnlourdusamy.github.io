@@ -305,10 +305,12 @@ async function renderUsers() {
 
         html += htmlSegment;
     });
-	console.log(html);
+
 }
 	
 	renderUsers();
+	
+		console.log(users);
 	
 	next_button.addEventListener("click", nextQuestion);
 	prev_button.addEventListener("click", prevQuestion);

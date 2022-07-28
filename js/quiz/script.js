@@ -3,6 +3,8 @@
 * created 2022/07/18
 */
 (() => {
+	
+	console.log('john1');
 
 fetch('./js/quiz/chemistry/l01/questions.json')
   .then(response => response.json())

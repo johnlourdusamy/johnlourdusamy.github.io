@@ -7,7 +7,7 @@
 
 
 	// include question array object;
-	let questions = jsq_questions;
+	let questions = jsq_questions + '_' + getSubject + '_' + getLesson;
 	console.log(questions);
 	questions = questions.sort(() => Math.random() - 0.5);
 	let question_index = 0;	
@@ -275,7 +275,6 @@
 		document.querySelector("#jsq_ifo_box").remove();
 		//showQuestion();
 
-getQuestions();
 	};
 
 	// get subject
@@ -287,36 +286,6 @@ getQuestions();
 	const getLesson = () => {
 		return lesson_button.options[lesson_button.selectedIndex].value;
 	};
-	
-	async function getQuestions() {
-    let url = "./js/quiz/" + "chemistry" + "/" + "l01" + "/" + "questions.js";
-	console.log(url);
-    try {
-        let res = await fetch(url);
-		console.log(res.js());
-        return await res.js();
-    } catch (error) {
-        console.log(error);
-    } 
-	}
-	
-	
-async function renderUsers() {
-    let users = await getQuestions();
-    let html = '';
-	
-    users.forEach(user => {
-        let htmlSegment = `<div class="user">
-                             <h2>${user.question} ${user.answer}</h2>
-                        </div>`;
-
-        html += htmlSegment;
-    });
-	console.log(htmlSegment);
-
-}
-	
-
 	
 		
 	

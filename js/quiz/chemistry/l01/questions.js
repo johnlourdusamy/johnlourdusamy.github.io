@@ -1,4 +1,4 @@
-let jsq_questions_chemistry_l01 = [
+let jsq_questions = [
 			{
 		"id": 1,
 		"question": "The liquid metal used in thermometers is",

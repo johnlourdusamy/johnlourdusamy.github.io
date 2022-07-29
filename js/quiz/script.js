@@ -3,28 +3,116 @@
 * created 2022/07/18
 */
 (() => {
-	
+
+
+	let jsq_questions_physics_l01 = [];
 	const questionsobjects = [
-	    jsq_questions_physics_l01,
-        jsq_questions_physics_l02,
-	    jsq_questions_chemistry_l01
+	    jsq_questions_physics_l01
 	    ];
+		
+	let questions = {};
 
 
-let optionList = document.getElementById('rec_mode').options;
+let optionList = document.getElementById('questionjson').options;
 let options = [
   {
     text: 'Physics 1',
-    value: 'jsq_questions_physics_l01'
+    value: './js/quiz/physics/l01/questions.json'
   },
   {
     text: 'Physics 2',
-    value: 'jsq_questions_physics_l02',
+    value: './js/quiz/physics/l02/questions.json',
     selected: true
   },
   {
+    text: 'Physics 3',
+    value: './js/quiz/physics/l03/questions.json',
+    selected: true
+  },
+  {
+    text: 'Physics 4',
+    value: './js/quiz/physics/l04/questions.json',
+    selected: true
+  },
+  {
+    text: 'Physics 5',
+    value: './js/quiz/physics/l05/questions.json',
+    selected: true
+  },
+  {
+    text: 'Physics 6',
+    value: './js/quiz/physics/l06/questions.json',
+    selected: true
+  },
+  {
+    text: 'Physics 7',
+    value: './js/quiz/physics/l07/questions.json',
+    selected: true
+  },
+  {
+    text: 'Physics 8',
+    value: './js/quiz/physics/l08/questions.json',
+    selected: true
+  },
+  {
+    text: 'Chemistry 1',
+    value: './js/quiz/chemistry/l01/questions.json'
+  },
+  {
+    text: 'Chemistry 2',
+    value: './js/quiz/chemistry/l02/questions.json'
+  },
+  {
     text: 'Chemistry 3',
-    value: 'jsq_questions_chemistry_l01'
+    value: './js/quiz/chemistry/l03/questions.json'
+  },
+  {
+    text: 'Chemistry 4',
+    value: './js/quiz/chemistry/l04/questions.json'
+  },
+  {
+    text: 'Chemistry 5',
+    value: './js/quiz/chemistry/l05/questions.json'
+  },
+  {
+    text: 'Chemistry 6',
+    value: './js/quiz/chemistry/l06/questions.json'
+  },
+  {
+    text: 'Chemistry 7',
+    value: './js/quiz/chemistry/l07/questions.json'
+  },
+  {
+    text: 'Biology 1',
+    value: './js/quiz/biology/l01/questions.json'
+  },
+  {
+    text: 'Biology 2',
+    value: './js/quiz/biology/l02/questions.json'
+  },
+  {
+    text: 'Biology 3',
+    value: './js/quiz/biology/l03/questions.json'
+  },
+  {
+    text: 'Biology 4',
+    value: './js/quiz/biology/l04/questions.json'
+  },
+  {
+    text: 'Biology 5',
+    value: './js/quiz/biology/l05/questions.json'
+  },
+  {
+    text: 'Biology 6',
+    value: './js/quiz/biology/l06/questions.json'
+  },
+  {
+    text: 'Biology 7',
+    value: './js/quiz/biology/l07/questions.json'
+  },
+  {
+    text: 'Biology 8',
+    value: './js/quiz/biology/l08/questions.json'
   }
 ];
 
@@ -34,32 +122,29 @@ options.forEach(option =>
   )
 );
 
-const value = document.getElementById('rec_mode').value;
+const value = document.getElementById('questionjson').value;
+let questionsurl = "./js/quiz/chemistry/l01/questions.json";
 
-document.getElementById('rec_mode').addEventListener("change", function(){
+document.getElementById('questionjson').addEventListener("change", function(){
+  questionsurl = this.value;
+		
+  var myInit = { 
+    method: 'GET',
+    headers: {
+	  'Content-Type': 'application/json'
+    },
+    mode: 'cors',
+    cache: 'default'
+  };
+
+  let myRequest = new Request(questionsurl, myInit);	
 	
-		const questionsobjects = [
-	    jsq_questions_physics_l01,
-        jsq_questions_physics_l02,
-	    jsq_questions_chemistry_l01
-	    ];
-
-	
-	console.log(this.value);
-	
-	if(questionsobjects.includes(this.value)){
-     console.log("YES in array")
-	 console.log(questionsobjects.findIndex(item => item === this.value));
-     }else{
-    console.log(this.value + " NOT in array")
-    }
-});
-
-
-	// include question array object;
-	let questions = questionsobjects[0];
-
-	questions = questions.sort(() => Math.random() - 0.5);
+	fetch(myRequest).then(function(resp) {
+		  return resp.json();
+	}).then(function(data) {
+		questions = data;
+		questions = questions.quests.sort(() => Math.random() - 0.5);
+		
 	let question_index = 0;	
 	let score = 0;
 	let time_left = 45;
@@ -71,7 +156,6 @@ document.getElementById('rec_mode').addEventListener("change", function(){
 	const start_button = document.getElementById("jsq_start");
 	const subject_button = document.getElementById("subjects");
 	const lesson_button = document.getElementById("lessons");
-
 
 	const replaceHTMLtags = text => text.replace(/</g, "&lt;").replace(/>/g, "&gt;");
 	const stopTimer = () => {
@@ -102,7 +186,6 @@ document.getElementById('rec_mode').addEventListener("change", function(){
 			element.nextElementSibling.classList.add("disabled");
 		});
 	};
-
 
 	// evaluate the user selected option answer
 	const optionSelected = () => {
@@ -151,6 +234,7 @@ document.getElementById('rec_mode').addEventListener("change", function(){
 		next_button.style.visibility = 'visible';  
 	};
 
+	
 	// show next question and options
 	const showQuestion = () => {
 		let current_question = questions[question_index];
@@ -178,6 +262,7 @@ document.getElementById('rec_mode').addEventListener("change", function(){
 		startTimer(time_left);
 		current_question_completed = false;
 	};
+	
 
 	// show all question answers
 	const showAllAnswers = () => {
@@ -315,34 +400,26 @@ document.getElementById('rec_mode').addEventListener("change", function(){
 		showPrevQuestion();
 	};
 
+	
 	// start quiz
 	const startQuiz = () => {
 		document.querySelector(".jsq_header").removeAttribute("style");
 		document.querySelector(".jsq_main_content").removeAttribute("style");
 		document.querySelector(".jsq_footer").removeAttribute("style");
 		document.querySelector("#jsq_ifo_box").remove();
-		//showQuestion();
-		build();
-
+		showQuestion();
 	};
 	
-	// get subject
-	const getSubject = () => {
-		document.getElementById("subj").value = subject_button.options[subject_button.selectedIndex].value;
-	};
-	
-	// get lesson
-	const getLesson = () => {
-		document.getElementById("less").value = lesson_button.options[lesson_button.selectedIndex].value;
-	};
-	
-		
 	
 	next_button.addEventListener("click", nextQuestion);
 	prev_button.addEventListener("click", prevQuestion);
-	start_button.addEventListener("click", startQuiz);
-	subject_button.addEventListener("change", getSubject);
-	lesson_button.addEventListener("change", getLesson);	
-	// code generated by https://www.html-code-generator.com/javascript/quiz-generator
+	start_button.addEventListener("click", startQuiz);	
+	
+	})
 
+  console.log(this.value);
+});
+
+
+		
 })();

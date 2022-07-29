@@ -1,0 +1,194 @@
+{
+ "subject": "chemistry",
+ "lesson": "l01",
+ "grade": "c8",
+ "quests": [
+			{
+		"id": 1,
+		"question": "The liquid metal used in thermometers is",
+		"options": {
+			"a": "copper",
+			"b": "mercury",
+			"c": "silver",
+			"d": "gold"
+	},
+			"answer": "b"
+		},
+		{
+		"id": 2,
+		"question": "The pictorial symbol for water given bythe alchemists was",
+		"options": {
+			"a": "Solid angle",
+			"b": "Accuracy",
+			"c": "Temperature",
+			"d": "Plane angle"
+	},
+			"answer": "b"
+	},
+		{
+		"id": 3,
+		"question": "Which one of the following element nameis not derived from planet?",
+		"options": {
+			"a": "Plutonium",
+			"b": "Neptunium",
+			"c": "Uranium",
+			"d": "Mercury"
+	},
+			"answer": "d"
+	},
+		{
+		"id": 4,
+		"question": "Symbol of mercury is",
+		"options": {
+			"a": "Ag",
+			"b": "Hg",
+			"c": "Au",
+			"d": "Pb"
+	},
+			"answer": "b"
+	},
+		{
+		"id": 5,
+		"question": "A form of non-metal which has highductility is ",
+		"options": {
+			"a": "nitrogen",
+			"b": "oxygen",
+			"c": "chlorine",
+			"d": "carbon"
+	},
+			"answer": "d"
+	},
+		{
+		"id": 6,
+		"question": "The property which allows the metals to be hammered into their sheets is___________",
+		"options": {
+			"a": "ductility",
+			"b": "malleability",
+			"c": "conductivity",
+			"d": "kilogram"
+	},
+		"answer": "b"
+	},
+		{
+		"id": 7,
+		"question": "The non-metal which conducts electriccurrent is ",
+		"options": {
+			"a": "carbon",
+			"b": "oxygen",
+			"c": "aluminium",
+			"d": "sulphu"
+	},
+		"answer": "a"
+	},
+		{
+		"id": 8,
+		"question": "Pencil lead contains ",
+		"options": {
+			"a": "graphite",
+			"b": "diamond",
+			"c": "aluminium",
+			"d": "sulphur"
+	},
+		"answer": "a"
+	},
+		{
+		"id": 9,
+	"question": "Identify the state of matter based on the arrangement of the molecules. ",
+	"options": {
+			"a": "A - Gas, B - Solid, C - Liquid",
+			"b": "A - Liquid, B - Solid, C - Gas",
+			"c": "A - Gas, B - Solid, C - Liquid",
+			"d": "A - Liquid, B - Gas, C - Solid"
+	},
+		"answer": "a"
+	},
+		{
+		"id": 10,
+		"question": "For making wires ",
+		"options": {
+			"a": "Iron",
+			"b": "Copper",
+			"c": "Tungsten",
+			"d": "Boren"
+	},
+		"answer": "b"
+	},
+		{
+		"id": 11,
+		"question": "Sewing needle ",
+		"options": {
+			"a": "Iron",
+			"b": "Copper",
+			"c": "tungsten",
+			"d": "Boren"
+	},
+		"answer": "a"
+	},
+		{
+		"id": 12,
+		"question": "As a fuel for ignition in rocket ",
+		"options": {
+			"a": "Iron",
+			"b": "Copper",
+			"c": "tungsten",
+			"d": "Boren"
+	},
+		"answer": "d"
+	},
+		{
+		"id": 13,
+		"question": "Making the filament of a bulb ",
+		"options": {
+			"a": "Iron",
+			"b": "Copper",
+			"c": "Tungsten",
+			"d": "Boren"
+	},
+		"answer": "c"
+	},
+		{
+		"id": 14,
+		"question": "Building block of matter ",
+		"options": {
+			"a": "Atom",
+			"b": "Element",
+			"c": "Compound ",
+			"d": "Molecule "
+	},
+		"answer": "a"
+	},
+		{
+		"id": 15,
+		"question": "Atoms of different kinds ",
+		"options": {
+			"a": "Atom",
+			"b": "Element",
+			"c": "Compound ",
+			"d": "Molecule "
+	},
+		"answer": "b"
+	},
+		{
+		"id": 16,
+		"question": "Atoms of the same kind ",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+	},
+		"answer": "b"
+	},
+		{
+		"id": 17,
+		"question": "Smallest unit of a substance ",
+		"options": {
+			"a": "Atom",
+			"b": "Element",
+			"c": "Compound ",
+			"d": "Molecule "
+	},
+		"answer": "d"
+	}
+  ]
+}

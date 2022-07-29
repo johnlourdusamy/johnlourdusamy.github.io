@@ -1,0 +1,227 @@
+{
+ "subject": "biology",
+ "lesson": "l02",
+ "grade": "c8",
+ "quests": [
+	{
+		"id": 1,
+		"question": "Solanum trilobatum is the binomial name ofThoothuvalai. The word ‘Solanum’ refers to",
+		"options": {
+			"a": "Species",
+			"b": "Genus",
+			"c": "Class",
+			"d": "Orders"
+		},
+		"answer": "b"
+	},
+	{
+		"id": 2,
+		"question": "Floridian starch is a reserve food material o",
+		"options": {
+			"a": "Chloroplyceae",
+			"b": "Phaeophyceae",
+			"c": "Rhodophyceae",
+			"d": "Cyanophyceae4"
+		},
+		"answer": "c"
+	},
+	{
+		"id": 3,
+		"question": "An example for colonial form of algae is",
+		"options": {
+			"a": "Oscillatoria",
+			"b": "NostacOPTION 2",
+			"c": "Volvox",
+			"d": "Chlorella"
+		},
+		"answer": "c"
+	},
+	{
+		"id": 4,
+		"question": "An example for colonial form of algae is",
+		"options": {
+			"a": "Oscillatoria",
+			"b": "Nostac",
+			"c": "Volvox",
+			"d": "Chlorella"
+		},
+		"answer": "d"
+	},
+	{
+		"id": 5,
+		"question": "One of the following is an edible mushroom",
+		"options": {
+			"a": "Polyporus",
+			"b": "Agaricus",
+			"c": "Pennicillium",
+			"d": "Aspergillus"
+		},
+		"answer": "b"
+	},
+	{
+		"id": 6,
+		"question": "Plants that prevent soil erosion are",
+		"options": {
+			"a": "algae",
+			"b": "fungi",
+			"c": "bryophytes",
+			"d": "pteridophytes"
+		},
+		"answer": "c"
+	},
+	{
+		"id": 7,
+		"question": "The first land plants are",
+		"options": {
+			"a": "bryophytes",
+			"b": "pteridophytes",
+			"c": "gymnosperm",
+			"d": "angiosperm"
+		},
+		"answer": "b"
+	},
+	{
+		"id": 8,
+		"question": "The well-developed sporophytic plant body is seen in",
+		"options": {
+			"a": "bryophytes",
+			"b": "pteridophytes",
+			"c": "gymnosperms",
+			"d": "angiosperms"
+		},
+		"answer": "c"
+	},
+	{
+		"id": 9,
+		"question": "Binominal Nomenclature was firstintroduced in the year",
+		"options": {
+			"a": "1970",
+			"b": "1975",
+			"c": "1978",
+			"d": "1623"
+		},
+		"answer": "d"
+	},
+	{
+		"id": 10,
+		"question": "Penicillin is an antibiotic which is extracted from",
+		"options": {
+			"a": "algae",
+			"b": "fungi",
+			"c": "bryophytes",
+			"d": "pteridophytes"
+		},
+		"answer": "b"
+	},
+	{
+		"id": 11,
+		"question": "In polypetalae, the petals are free.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "a"
+	},
+	{
+		"id": 12,
+		"question": "Binomial name should contain more thantwo words.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "b"
+	},
+	{
+		"id": 13,
+		"question": "Artificial system of classification is based on a few characters of the plant.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "b"
+	},
+	{
+		"id": 14,
+		"question": "Cell wall of fungi is made up of chitin.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "a"
+	},
+	{
+		"id": 15,
+		"question": "Pinus is a closed seeded plant.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "b"
+	},
+	{
+		"id": 16,
+		"question": "All bryophytes are hydrophytes.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "b"
+	},
+	{
+		"id": 17,
+		"question": "Dicotyledons have well developed characters than the gymnosperms.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "a"
+	},
+	{
+		"id": 18,
+		"question": "Mosses are the well developed plant in bryophytes.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "a"
+	},
+	{
+		"id": 19,
+		"question": "The dominant phase of the bryophytes is sporophyte.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "b"
+	},
+{
+		"id": 20,
+		"question": "The dominant phase of the pteridophyte is gametophytic phase.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "b"
+	}
+  ]
+}

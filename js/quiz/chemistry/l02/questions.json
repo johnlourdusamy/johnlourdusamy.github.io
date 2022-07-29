@@ -1,0 +1,186 @@
+{
+	"subject": "chemistry",
+	"lesson": "l02",
+	"grade": "c8",
+	"quests": [{
+		"id": 1,
+		"question": "Burning of paper is a __________ change. ",
+		"options": {
+			"a": "physical",
+			"b": "chemical",
+			"c": "physical and chemical",
+			"d": "neutral"
+		},
+		"answer": "b"
+	}, {
+		"id": 2,
+		"question": "Burning of matchstick is an example for chemical reaction caused by __________ ",
+		"options": {
+			"a": "contact in physical states",
+			"b": "electricity",
+			"c": "light",
+			"d": "catalyst"
+		},
+		"answer": "a"
+	}, {
+		"id": 3,
+		"question": "__________ undergoes rusting. ",
+		"options": {
+			"a": "Tin",
+			"b": "Sodium",
+			"c": "Copper",
+			"d": "Iron"
+		},
+		"answer": "d"
+	}, {
+		"id": 4,
+		"question": "The pigment responsible for browning of apples is __________. ",
+		"options": {
+			"a": "hydrated iron (II) oxide",
+			"b": "melanin",
+			"c": "starch",
+			"d": "ozone"
+		},
+		"answer": "a"
+	}, {
+		"id": 5,
+		"question": "Brine is a concentrated solution of _____.",
+		"options": {
+			"a": "sodium sulphate",
+			"b": "sodium chloride",
+			"c": "calcium chloride",
+			"d": "sodium bromide"
+		},
+		"answer": "b"
+	}, {
+		"id": 6,
+		"question": "Limestone contains __________ mainly ",
+		"options": {
+			"a": "calcium chloride",
+			"b": "calcium carbonate",
+			"c": "calcium nitrate",
+			"d": "calcium sulphate"
+		},
+		"answer": "b"
+	}, {
+		"id": 7,
+		"question": "Which of the following factor induces electrtolysis? ",
+		"options": {
+			"a": "Heat",
+			"b": "Light",
+			"c": "Electricity",
+			"d": "Catalysis"
+		},
+		"answer": "c"
+	}, {
+		"id": 8,
+		"question": "In Haber’s process of producing ammonia __________ is used as a catalyst.",
+		"options": {
+			"a": "nitrogen",
+			"b": "hydrogen",
+			"c": "iron",
+			"d": "nickel"
+		},
+		"answer": "c"
+	}, {
+		"id": 9,
+		"question": "Dissolved gases like sulphur dioxide and nitrogen oxides in rain water causes __________ ",
+		"options": {
+			"a": "acid rain",
+			"b": "base rain",
+			"c": "heavy rain",
+			"d": "neutral rain"
+		},
+		"answer": "a"
+	}, {
+		"id": 10,
+		"question": "__________ is/are responsible for global warming.",
+		"options": {
+			"a": "Carbon dioxide",
+			"b": "Methane",
+			"c": "Chlorofluorocarbons",
+			"d": "Carbon dioxide, Methane, Chlorofluorocarbons"
+		},
+		"answer": "d"
+	}, {
+		"id": 11,
+		"question": "Photosynthesis ",
+		"options": {
+			"a": "Rusting",
+			"b": "Electrolysis",
+			"c": "Thermolysis",
+			"d": "Food"
+		},
+		"answer": "d"
+	}, {
+		"id": 12,
+		"question": "Haber’s process ",
+		"options": {
+			"a": "Rusting",
+			"b": "Electrolysis",
+			"c": "Thermolysis",
+			"d": "Catalysis"
+		},
+		"answer": "d"
+	}, {
+		"id": 13,
+		"question": "Iron ",
+		"options": {
+			"a": "Rusting",
+			"b": "Electrolysis",
+			"c": "Thermolysis",
+			"d": "Catalysis"
+		},
+		"answer": "a"
+	}, {
+		"id": 14,
+		"question": "Decomposition ",
+		"options": {
+			"a": "Spoilage",
+			"b": "Calcium oxide",
+			"c": "Ozone",
+			"d": "Tarnishing"
+		},
+		"answer": "b"
+	}, {
+		"id": 15,
+		"question": "Biocatalyst ",
+		"options": {
+			"a": "Spoilage",
+			"b": "Calcium oxide",
+			"c": "Yeast",
+			"d": "Tarnishing"
+		},
+		"answer": "c"
+	}, {
+		"id": 16,
+		"question": "Oxygen ",
+		"options": {
+			"a": "Spoilage",
+			"b": "Calcium oxide",
+			"c": "Ozone",
+			"d": "Tarnishing"
+		},
+		"answer": "c"
+	}, {
+		"id": 17,
+		"question": "Chemical reaction",
+		"options": {
+			"a": "Spoilage",
+			"b": "Calcium oxide",
+			"c": "Ozone",
+			"d": "Tarnishing"
+		},
+		"answer": "d"
+	}, {
+		"id": 18,
+		"question": "Food ",
+		"options": {
+			"a": "Spoilage",
+			"b": "Calcium oxide",
+			"c": "Ozone",
+			"d": "Tarnishing"
+		},
+		"answer": "b"
+	}]
+}

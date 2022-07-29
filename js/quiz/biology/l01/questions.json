@@ -1,0 +1,174 @@
+{
+ "subject": "biology",
+ "lesson": "l01",
+ "grade": "c8",
+ "quests": [
+	{
+		"id": 1,
+		"question": "Microorganisms are measured in _______.",
+		"options": {
+			"a": "cm",
+			"b": "mm",
+			"c": "micron",
+			"d": "meter"
+		},
+		"answer": "c"
+	},
+	{
+		"id": 2,
+		"question": "______ shows both living and nonlivingcharacteristics.",
+		"options": {
+			"a": "Protozoa",
+			"b": "Virus",
+			"c": "Bacteria",
+			"d": "Fungi"
+		},
+		"answer": "b"
+	},
+	{
+		"id": 3,
+		"question": "______ is a prokaryotic microorganisms.",
+		"options": {
+			"a": "Virus",
+			"b": "Algae",
+			"c": "Fungi",
+			"d": "Bacteria"
+		},
+		"answer": "d"
+	},
+	{
+		"id": 4,
+		"question": "Based on shape, the bacteria are classified into _______ types.",
+		"options": {
+			"a": "two",
+			"b": "three",
+			"c": "four",
+			"d": "five"
+		},
+		"answer": "c"
+	},
+	{
+		"id": 5,
+		"question": "Common cold in human is caused by_____.",
+		"options": {
+			"a": "plasmodium",
+			"b": "influenza",
+			"c": "vibrio cholera",
+			"d": "aphthovirus"
+		},
+		"answer": b"
+	},
+	{
+		"id": 6,
+		"question": "Disease causing microorganisms arecalled pathogens.",
+		"options": {
+			"a": "true
+			"b": "false",",
+			"c": "",
+			"d": ""
+		},
+		"answer": "a"
+	},
+	,
+	{
+		"id": 7,
+		"question": "Female anopheles mosquito is a carrier of
+dengue virus.",
+		"options": {
+			"a": "true
+			"b": "false",",
+			"c": "",
+			"d": ""
+		},
+		"answer": "b"
+	},
+	{
+		"id":8,
+		"question": "Chicken pox is a communicable disease.",
+		"options": {
+			"a": "true
+			"b": "false",",
+			"c": "",
+			"d": ""
+		},
+		"answer": "a"
+	},
+	{
+		"id": 9,
+		"question": "Citrus canker is transmitted by insects.",
+		"options": {
+			"a": "true
+			"b": "false",",
+			"c": "",
+			"d": ""
+		},
+		"answer": "b"
+	},
+	{
+		"id": 10,
+		"question": "Yeast is used in the large scale productionof alcohol.",
+		"options": {
+			"a": "true
+			"b": "false",",
+			"c": "",
+			"d": ""
+		},
+		"answer": "a"
+	},
+	{
+		"id": 11,
+		"question": "Nitrogen fixing bacteria ",
+		"options": {
+			"a": "Vaccine",
+			"b": "Prion",
+			"c": "Rhizobium",
+			"d": "Bacteria"
+		},
+		"answer": "c"
+	},
+	{
+		"id": 12,
+		"question": "Tuberculosis",
+		"options": {
+			"a": "Vaccine",
+			"b": "Prion",
+			"c": "Rhizobium",
+			"d": "Bacteria"
+		},
+		"answer": "d"
+	},
+	{
+		"id": 13,
+		"question": "Probiotics",
+		"options": {
+			"a": "Lactobacillus",
+			"b": "Prion",
+			"c": "Rhizobium",
+			"d": "Bacteria"
+		},
+		"answer": "a"
+	},
+	{
+		"id": 14,
+		"question": "Kuru",
+		"options": {
+			"a": "Vaccine",
+			"b": "Prion",
+			"c": "Rhizobium",
+			"d": "Bacteria"
+		},
+		"answer": "b"
+	},
+	{
+		"id": 15,
+		"question": "Edward Jenner",
+		"options": {
+			"a": "Vaccine",
+			"b": "Prion",
+			"c": "Rhizobium",
+			"d": "Bacteria"
+		},
+		"answer": "a"
+	}
+  ]
+}

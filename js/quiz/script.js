@@ -113,6 +113,106 @@ let options = [
   {
     text: 'Biology 8',
     value: './js/quiz/biology/l08/questions.json'
+  },
+  {
+    text: 'History 1',
+    value: './js/quiz/history/l01/questions.json'
+  },
+  {
+    text: 'History 2',
+    value: './js/quiz/history/l02/questions.json'
+  },
+  {
+    text: 'History 3',
+    value: './js/quiz/history/l03/questions.json'
+  },
+  {
+    text: 'History 4',
+    value: './js/quiz/history/l04/questions.json'
+  },
+  {
+    text: 'History 5',
+    value: './js/quiz/history/l05/questions.json'
+  },
+  {
+    text: 'History 6',
+    value: './js/quiz/history/l06/questions.json'
+  },
+  {
+    text: 'History 7',
+    value: './js/quiz/history/l07/questions.json'
+  },
+  {
+    text: 'History 8',
+    value: './js/quiz/history/l08/questions.json'
+  },
+  {
+    text: 'Geography 1',
+    value: './js/quiz/geography/l01/questions.json'
+  },
+  {
+    text: 'Geography 2',
+    value: './js/quiz/geography/l02/questions.json'
+  },
+  {
+    text: 'Geography 3',
+    value: './js/quiz/geography/l03/questions.json'
+  },
+  {
+    text: 'Geography 4',
+    value: './js/quiz/geography/l04/questions.json'
+  },
+  {
+    text: 'Geography 5',
+    value: './js/quiz/geography/l05/questions.json'
+  },
+  {
+    text: 'Geography 6',
+    value: './js/quiz/geography/l06/questions.json'
+  },
+  {
+    text: 'Geography 7',
+    value: './js/quiz/geography/l07/questions.json'
+  },
+  {
+    text: 'Geography 8',
+    value: './js/quiz/geography/l08/questions.json'
+  },
+  {
+    text: 'Civics 1',
+    value: './js/quiz/civics/l01/questions.json'
+  },
+  {
+    text: 'Civics 2',
+    value: './js/quiz/civics/l02/questions.json'
+  },
+  {
+    text: 'Civics 3',
+    value: './js/quiz/civics/l03/questions.json'
+  },
+  {
+    text: 'Civics 4',
+    value: './js/quiz/civics/l04/questions.json'
+  },
+  {
+    text: 'Civics 5',
+    value: './js/quiz/civics/l05/questions.json'
+  },
+  {
+    text: 'Civics 6',
+    value: './js/quiz/civics/l06/questions.json'
+  },
+  {
+    text: 'Civics 7',
+    value: './js/quiz/civics/l07/questions.json'
+  },
+  {
+    text: 'Economics 1',
+    value: './js/quiz/economics/l01/questions.json'
+  },
+  {
+    text: 'Economics 2',
+    value: './js/quiz/economics/l02/questions.json'
   }
 ];
 

@@ -213,13 +213,46 @@
 		"answer": "b"
 	},
 {
-		"id": 20,
-		"question": "The dominant phase of the pteridophyte is gametophytic phase.",
+		"id": 21,
+		"question": "Cyanophyceae.",
 		"options": {
-			"a": "True",
-			"b": "False",
-			"c": "",
-			"d": ""
+			"a": "Green algae",
+			"b": "Red algae	",
+			"c": "Blue green algae",
+			"d": "Brown algae"
+		},
+		"answer": "c"
+	},
+{
+		"id": 22,
+		"question": "Chlorophyceae.",
+		"options": {
+			"a": "Green algae",
+			"b": "Red algae	",
+			"c": "Blue green algae",
+			"d": "Brown algae"
+		},
+		"answer": "a"
+	
+{
+		"id": 23,
+		"question": "Phaeophyceae",
+		"options": {
+			"a": "Green algae",
+			"b": "Red algae	",
+			"c": "Blue green algae",
+			"d": "Brown algae"
+		},
+		"answer": "d"
+	},
+{
+		"id": 24,
+		"question": "Rhodophyceae",
+		"options": {
+			"a": "Green algae",
+			"b": "Red algae	",
+			"c": "Blue green algae",
+			"d": "Brown algae"
 		},
 		"answer": "b"
 	}

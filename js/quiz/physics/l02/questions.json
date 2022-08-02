@@ -5,223 +5,279 @@
  "quests": [
 	{
 		"id": 1,
-		"question": "QUESTION",
+		"question": "If we apply force against the direction of motion of the body, then the body will",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "stop moving",
+			"b": "move with an increased speed2",
+			"c": "move with a decreased speed",
+			"d": "move in a different direction"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 2,
-		"question": "QUESTION",
+		"question": "move in a different direction",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "the density of the liquid",
+			"b": "the height of the liquid column",
+			"c": "Both a and b",
+			"d": "None of the above"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	},
 	{
 		"id": 3,
-		"question": "QUESTION",
+		"question": "Unit of pressure is",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+		"a": "Pascal",
+			"b": "Nm–2",
+			"c": "Poise",
+			"d": "Both a and b"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 4,
-		"question": "QUESTION",
+		"question": "The value of the atmospheric pressure atsea level is",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "76 cm of mercury column",
+			"b": "760 cm of mercury column",
+			"c": "7.6 cm of mercury column",
+			"d": "176 cm of mercury column"
 		},
-		"answer": "ANS"
-	},
-	{
+		"answer": "a"
+	}{
 		"id": 5,
-		"question": "QUESTION",
+		"question": "Pascal’s law is used in",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "hydraulic lift",
+			"b": "brake system",
+			"c": "pressing heavy bundles",
+			"d": "All the above"
 		},
-		"answer": "ANS"
+		"answer": "d"
+	
 	},
 	{
-		"id": 6,
-		"question": "QUESTION",
+		"id"6,
+		"question": "Which of the following liquids has more viscosity?",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Grease",
+			"b": "Ghee",
+			"c": "Coconut oil",
+			"d": "Water"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 7,
-		"question": "QUESTION",
+		"question": "The unit of viscosity is",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Nm2",
+			"b": "poise",
+			"c": "kgms–1",
+			"d": "No unit"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 8,
-		"question": "QUESTION",
+		"question": "Force acting on a given area is called pressure.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "Ealse",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 9,
-		"question": "QUESTION",
+		"question": "A moving body comes to rest due to friction alone.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "Ealse",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 10,
-		"question": "QUESTION",
+		"question": "A body will sink if the weight of the body is greater than the buoyant force.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "Ealse",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
-	},
-	{
-		"id": 11,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 12,
-		"question": "QUESTION",
+		"question": "One atmosphere is equivalent to 1,00,000 newton force acting on one square metre.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "Ealse",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
+	},
+	{
+		"id": 11,
+		"question": "Rolling friction is slightly greater than the sliding friction.",
+		"options": {
+			"a": "True",
+			"b": "Ealse",
+			"c": "",
+			"d": ""
+		},
+		"answer": "b"
+	},
+	{
+		"id": 12,
+		"question": "Friction is the only reason for the loss of energy.",
+		"options": {
+			"a": "True",
+			"b": "Ealse",
+			"c": "",
+			"d": ""
+		},
+		"answer": "a"
 	},
 	{
 		"id": 13,
-		"question": "QUESTION",
+		"question": "Liquid pressure decreases with the decrease of depth.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "Ealse",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 14,
-		"question": "QUESTION",
+		"question": "Viscosity depends on the pressure of a liquid.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "Ealse",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 15,
-		"question": "QUESTION",
+		"question": "Static friction",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Viscosity",
+			"b": "Objects are at rest",
+			"c": "Objects are sliding",
+			"d": "Least friction"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 16,
-		"question": "QUESTION",
+		"question": "Kinetic friction",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Viscosity",
+			"b": "Objects are at rest",
+			"c": "Objects are sliding",
+			"d": "Objects are in motion"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 17,
-		"question": "QUESTION",
+		"question": "Rolling friction",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Least friction",
+			"b": "Objects are at rest",
+			"c": "Objects are sliding",
+			"d": "Objects are in motion"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 18,
-		"question": "QUESTION",
+		"question": "Friction between the
+liquid layers",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Viscosity",
+			"b": "Objects are at rest",
+			"c": "Objects are sliding",
+			"d": "Objects are in motion"
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 19,
-		"question": "QUESTION",
+		"question": "Sliding friction",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Viscosity",
+			"b": "Objects are at rest",
+			"c": "Objects are sliding",
+			"d": "Objects are in motion"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	},
 {
 		"id": 20,
-		"question": "QUESTION",
+		"question": "Barometer",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Atmospheric pressure",
+			"b": "reduce friction",
+			"c": "increases friction",
+			"d": "decreases friction"
 		},
-		"answer": "ANS"
+		"answer": "a"
+	},
+{
+		"id": 21,
+		"question": "Increasing area of contact",
+		"options": {
+			"a": "Atmospheric pressure",
+			"b": "reduce friction",
+			"c": "increases friction",
+			"d": "decreases friction"
+		},
+		"answer": "c"
+	},
+{
+		"id": 22,
+		"question": "Decreasing area of contact",
+		"options": {
+			"a": "Atmospheric pressure",
+			"b": "reduce friction",
+			"c": "increases friction",
+			"d": "decreases friction"
+		},
+		"answer": "d"
+	},
+{
+		"id": 23,
+		"question": "Lubricants",
+		"options": {
+			"a": "Atmospheric pressure",
+			"b": "reduce friction",
+			"c": "increases friction",
+			"d": "decreases friction"
+		},
+		"answer": "b"
+	},
+{
+		"id": 24,
+		"question": "Irregular surface",
+		"options": {
+			"a": "Atmospheric pressure",
+			"b": "cause of friction",
+			"c": "increases friction",
+			"d": "decreases friction"
+		},
+		"answer": "b"
 	}
   ]
 }

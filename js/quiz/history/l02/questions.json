@@ -1,9 +1,8 @@
 {
- "subject": "history",
- "lesson": "l02",
- "grade": "c8",
- "quests": [
-	{
+	"subject": "history",
+	"lesson": "l02",
+	"grade": "c8",
+	"quests": [{
 		"id": 1,
 		"question": "The ruler of Bengal in 1757 was .",
 		"options": {
@@ -13,8 +12,7 @@
 			"d": "Tipu Sultan"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 2,
 		"question": "The Battle of Plassey was fought in ",
 		"options": {
@@ -24,8 +22,7 @@
 			"d": "1775"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 3,
 		"question": "Which among the following treaty was signed after Battle of Buxar?",
 		"options": {
@@ -35,8 +32,7 @@
 			"d": "Treaty of Paris"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 4,
 		"question": "The Treaty of Pondichery brought the Carnatic war to an end .",
 		"options": {
@@ -46,8 +42,7 @@
 			"d": "None"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 5,
 		"question": "When did Hyder Ali crown on the throne of Mysore?",
 		"options": {
@@ -57,8 +52,7 @@
 			"d": "1763"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 6,
 		"question": "Treaty of Mangalore was signed between. ",
 		"options": {
@@ -68,8 +62,7 @@
 			"d": "Tipu Sultan and Marathas"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 7,
 		"question": "Who was the British Governor General during Third Anglo-Mysore War?",
 		"options": {
@@ -79,8 +72,7 @@
 			"d": "Lord Wellesley"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 8,
 		"question": "Who signed the Treaty of Bassein with the British?",
 		"options": {
@@ -90,8 +82,7 @@
 			"d": "Sayyaji Rao Gaekwad"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 9,
 		"question": "Who was the last Peshwa of Maratha empire?",
 		"options": {
@@ -101,8 +92,7 @@
 			"d": "Baji Rao"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 10,
 		"question": "Who was the first Indian state to join the subsidiary Alliance?",
 		"options": {
@@ -112,8 +102,7 @@
 			"d": "Gwalior"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 11,
 		"question": "Treaty of Aix-La-Chapelle",
 		"options": {
@@ -123,8 +112,7 @@
 			"d": "The First Maratha War"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 12,
 		"question": "Treaty of Salbai",
 		"options": {
@@ -134,8 +122,7 @@
 			"d": "The First Maratha War"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 13,
 		"question": "Treaty of Paris",
 		"options": {
@@ -145,8 +132,7 @@
 			"d": "The First Maratha War"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 14,
 		"question": "Treaty of Srirangapatnam",
 		"options": {
@@ -156,8 +142,7 @@
 			"d": "The First Maratha War"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 15,
 		"question": "Treaty of Madras",
 		"options": {
@@ -167,8 +152,7 @@
 			"d": "The First Maratha War"
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 16,
 		"question": "After the death of Alivardi Khan, Siraj-ud-daulah ascended the throne of Bengal.",
 		"options": {
@@ -178,8 +162,7 @@
 			"d": ""
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 17,
 		"question": "Hector Munro, led the British forces in the battle of Plassey.",
 		"options": {
@@ -189,8 +172,7 @@
 			"d": ""
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 18,
 		"question": "The outbreak of the Austrian war of succession in Europe was led to Second Carnatic War in India.",
 		"options": {
@@ -200,8 +182,7 @@
 			"d": ""
 		},
 		"answer": "ANS"
-	},
-	{
+	}, {
 		"id": 19,
 		"question": "Sir Elijah Impey was the first Chief Justice of the Supreme Court at Fort William in Bengal.",
 		"options": {
@@ -211,8 +192,7 @@
 			"d": ""
 		},
 		"answer": "ANS"
-	},
-{
+	}, {
 		"id": 20,
 		"question": "The Police system was created by Lord Cornwallis.",
 		"options": {
@@ -222,8 +202,7 @@
 			"d": ""
 		},
 		"answer": "ANS"
-	},
-{
+	}, {
 		"id": 21,
 		"question": "Battle of Adayar",
 		"options": {
@@ -233,8 +212,7 @@
 			"d": "1749"
 		},
 		"answer": "ANS"
-	},
-{
+	}, {
 		"id": 22,
 		"question": "Battle of Ambur",
 		"options": {
@@ -244,8 +222,7 @@
 			"d": "1749"
 		},
 		"answer": "ANS"
-	},
-{
+	}, {
 		"id": 20,
 		"question": "Battle of Wandiwash",
 		"options": {
@@ -255,9 +232,7 @@
 			"d": "1749"
 		},
 		"answer": "ANS"
-	}
-  ],
-{
+	}, {
 		"id": 20,
 		"question": "Battle of Arcot",
 		"options": {
@@ -267,5 +242,5 @@
 			"d": "1749"
 		},
 		"answer": "ANS"
-	}
+	}]
 }

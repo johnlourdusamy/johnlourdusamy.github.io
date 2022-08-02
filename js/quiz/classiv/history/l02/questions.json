@@ -1,0 +1,246 @@
+{
+	"subject": "history",
+	"lesson": "l02",
+	"grade": "c4",
+	"quests": [{
+		"id": 1,
+		"question": "The ruler of Bengal in 1757 was .",
+		"options": {
+			"a": "Shuja-ud-daulah",
+			"b": "Siraj – ud – daulah",
+			"c": "Mir Qasim",
+			"d": "Tipu Sultan"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 2,
+		"question": "The Battle of Plassey was fought in ",
+		"options": {
+			"a": "1757",
+			"b": "1764",
+			"c": "1765",
+			"d": "1775"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 3,
+		"question": "Which among the following treaty was signed after Battle of Buxar?",
+		"options": {
+			"a": "Treaty of Allahabad",
+			"b": "Treaty of Carnatic",
+			"c": "Treaty of Alinagar",
+			"d": "Treaty of Paris"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 4,
+		"question": "The Treaty of Pondichery brought the Carnatic war to an end .",
+		"options": {
+			"a": "First",
+			"b": "Second",
+			"c": "Third",
+			"d": "None"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 5,
+		"question": "When did Hyder Ali crown on the throne of Mysore?",
+		"options": {
+			"a": "1756",
+			"b": "1761",
+			"c": "1763",
+			"d": "1763"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 6,
+		"question": "Treaty of Mangalore was signed between. ",
+		"options": {
+			"a": "The French and Tipu Sultan",
+			"b": "Hyder Ali and Zamorin of Calicut",
+			"c": "The British and Tipu Sultan",
+			"d": "Tipu Sultan and Marathas"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 7,
+		"question": "Who was the British Governor General during Third Anglo-Mysore War?",
+		"options": {
+			"a": "Robert Clive",
+			"b": "Warren Hastings",
+			"c": "Lord Cornwallis",
+			"d": "Lord Wellesley"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 8,
+		"question": "Who signed the Treaty of Bassein with the British?",
+		"options": {
+			"a": "Bajirao II",
+			"b": "Daulat Rao Scindia",
+			"c": "Sambhaji Bhonsle",
+			"d": "Sayyaji Rao Gaekwad"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 9,
+		"question": "Who was the last Peshwa of Maratha empire?",
+		"options": {
+			"a": "Balaji Vishwanath",
+			"b": "Baji Rao II",
+			"c": "Balaji Baji Rao",
+			"d": "Baji Rao"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 10,
+		"question": "Who was the first Indian state to join the subsidiary Alliance?",
+		"options": {
+			"a": "Awadh",
+			"b": "Hyderabad",
+			"c": "Udaipur",
+			"d": "Gwalior"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 11,
+		"question": "Treaty of Aix-La-Chapelle",
+		"options": {
+			"a": "The First Anglo Mysore War",
+			"b": "The First Carnatic War",
+			"c": "The Third Carnatic War",
+			"d": "The First Maratha War"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 12,
+		"question": "Treaty of Salbai",
+		"options": {
+			"a": "The First Anglo Mysore War",
+			"b": "The First Carnatic War",
+			"c": "The Third Carnatic War",
+			"d": "The First Maratha War"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 13,
+		"question": "Treaty of Paris",
+		"options": {
+			"a": "The First Anglo Mysore War",
+			"b": "The First Carnatic War",
+			"c": "The Third Carnatic War",
+			"d": "The First Maratha War"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 14,
+		"question": "Treaty of Srirangapatnam",
+		"options": {
+			"a": "The First Anglo Mysore War",
+			"b": "The First Carnatic War",
+			"c": "The Third Carnatic War",
+			"d": "The First Maratha War"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 15,
+		"question": "Treaty of Madras",
+		"options": {
+			"a": "The First Anglo Mysore War",
+			"b": "The First Carnatic War",
+			"c": "The Third Carnatic War",
+			"d": "The First Maratha War"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 16,
+		"question": "After the death of Alivardi Khan, Siraj-ud-daulah ascended the throne of Bengal.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "ANS"
+	}, {
+		"id": 17,
+		"question": "Hector Munro, led the British forces in the battle of Plassey.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "ANS"
+	}, {
+		"id": 18,
+		"question": "The outbreak of the Austrian war of succession in Europe was led to Second Carnatic War in India.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "ANS"
+	}, {
+		"id": 19,
+		"question": "Sir Elijah Impey was the first Chief Justice of the Supreme Court at Fort William in Bengal.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "ANS"
+	}, {
+		"id": 20,
+		"question": "The Police system was created by Lord Cornwallis.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "ANS"
+	}, {
+		"id": 21,
+		"question": "Battle of Adayar",
+		"options": {
+			"a": "1748",
+			"b": "1754",
+			"c": "1760",
+			"d": "1749"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 22,
+		"question": "Battle of Ambur",
+		"options": {
+			"a": "1748",
+			"b": "1754",
+			"c": "1760",
+			"d": "1749"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 20,
+		"question": "Battle of Wandiwash",
+		"options": {
+			"a": "1748",
+			"b": "1754",
+			"c": "1760",
+			"d": "1749"
+		},
+		"answer": "ANS"
+	}, {
+		"id": 20,
+		"question": "Battle of Arcot",
+		"options": {
+			"a": "1748",
+			"b": "1754",
+			"c": "1760",
+			"d": "1749"
+		},
+		"answer": "ANS"
+	}]
+}

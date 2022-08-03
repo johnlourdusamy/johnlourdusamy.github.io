@@ -21,11 +21,60 @@ if(!Array.indexOf){
 }
 
 (function($) {
+	
+	
+	let questions = {};
+	let selectedjsonpath = [];
+	let questionsurl = "./js/fillin/classviii/physics/l01/questions.json";
+	
+		$("#jsonpathselect").chosen().change(function() {
+		let orderselection = [];
+		const pattern = /^(M{1,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})|M{0,4}(CM|C?D|D?C{1,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})|M{0,4}(CM|CD|D?C{0,3})(XC|X?L|L?X{1,3})(IX|IV|V?I{0,3})|M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|I?V|V?I{1,3}))$/;
+
+		$.each($(this).val(), function(index, value) {
+			orderselection.push(value);
+			$.isNumeric(value) ? orderselection.push(orderselection.splice(orderselection.indexOf(value), 1)[0]) : '';
+			pattern.test(value) ? orderselection.unshift(value) : '';
+		});
+
+
+		orderselection[0] = './js/fillin/class' + orderselection[0] + '/';
+		orderselection[orderselection.length - 1] = '/' + orderselection[orderselection.length - 1] + '/questions.json';
+		selectedjsonpath = orderselection.join('');
+
+		console.log(orderselection.length);
+		//});
+
+		//document.getElementById('questionjson').addEventListener("change", function(){
+		//questionsurl = this.value;
+		  questionsurl = (orderselection.length == 3) ? selectedjsonpath : questionsurl;
+		//questionsurl = selectedjsonpath;
+		console.log(questionsurl);
+
+		var myInit = {
+			method: 'GET',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			mode: 'cors',
+			cache: 'default'
+		};
+		
+		let myRequest = new Request(questionsurl, myInit);
+
+		fetch(myRequest).then(function(resp) {
+			return resp.json();
+		}).then(function(data) {
+			$.fn.quizyFillBlank = data;
+  const start_button = document.getElementById("jsq_start");
+	
+	
   $.fn.quizyFillBlank = function(options) {
     
     // VARIABLES **************************************************************
     // ************************************************************************
 
+	
     // gets the parameters
     var opts = $.extend({}, $.fn.quizyFillBlank.defaults, options);
     
@@ -198,6 +247,7 @@ if(!Array.indexOf){
     
     // MAIN CODE **************************************************************
     // ************************************************************************    
+	
     
     // if set, allows dragging in touch devices
     if(opts.allowTouchDrag) initTouch();
@@ -277,6 +327,7 @@ console.log(anLabelsArr + "=" + anItemsArr);
 
   }
   
+  
 
   /**** plugin parameters *****************************************************
   *****************************************************************************
@@ -329,6 +380,21 @@ console.log(anLabelsArr + "=" + anItemsArr);
   ****************************************************************************/
 
   $.fn.quizyFillBlank.defaults = {elementAnId: 'fillblank-ph', textItems:['Text part1','text part 2', 'text part 3'], elementTextId: 'fillblank-text', anItems: ['an1','an2','an3'], anItemsCorrect:[2,0], answerId:'d-answer', phId: 'd-nest', checkId:'d-check', numberId:'d-number', blockSize:100, onFinishCall:'', allowTouchDrag:true}
+  
+	
+		// start quiz
+			const startQuiz = () => {
+				document.querySelector(".jsq_header").removeAttribute("style");
+				document.querySelector(".jsq_main_content").removeAttribute("style");
+				document.querySelector(".jsq_footer").removeAttribute("style");
+				document.querySelector("#jsq_ifo_box").remove();
+			};
+
+
+			start_button.addEventListener("click", startQuiz);
+			
+			});
+			
+			});
 
 })(jQuery);
-

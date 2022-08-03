@@ -8,165 +8,167 @@
 	let selectedjsonpath = [];
 
 
-	let optionList = document.getElementById('questionjson').options;
-	let options = [{
-		text: 'Physics 1',
-		value: './js/quiz/physics/l01/questions.json'
+	//let optionList = document.getElementById('questionjson').options;
+	let optionsdata = [{
+	"CLASS": [{
+		"title": 'IV',
+		"value": 'iv',
+		"selected": false
 	}, {
-		text: 'Physics 2',
-		value: './js/quiz/physics/l02/questions.json',
-		selected: true
+		"title": 'VIII',
+		"value": 'viii',
+		"selected": false
+	}], 
+	"SUBJECTS": [{
+		"title": 'Physics',
+		"value": 'physics',
+		"selected": false
 	}, {
-		text: 'Physics 3',
-		value: './js/quiz/physics/l03/questions.json',
-		selected: true
+		"title": 'Chemistry',
+		"value": 'chemistry',
+		"selected": false
 	}, {
-		text: 'Physics 4',
-		value: './js/quiz/physics/l04/questions.json',
-		selected: true
+		"title": 'Biology',
+		"value": 'biology',
+		"selected": false
 	}, {
-		text: 'Physics 5',
-		value: './js/quiz/physics/l05/questions.json',
-		selected: true
+		"title": 'History',
+		"value": 'history',
+		"selected": false
 	}, {
-		text: 'Physics 6',
-		value: './js/quiz/physics/l06/questions.json',
-		selected: true
+		"title": 'Geography',
+		"value": 'geography',
+		"selected": false
 	}, {
-		text: 'Physics 7',
-		value: './js/quiz/physics/l07/questions.json',
-		selected: true
+		"title": 'Civics',
+		"value": 'civics',
+		"selected": false
 	}, {
-		text: 'Physics 8',
-		value: './js/quiz/physics/l08/questions.json',
-		selected: true
+		"title": 'Economics',
+		"value": 'economics',
+		"selected": false
 	}, {
-		text: 'Chemistry 1',
-		value: './js/quiz/chemistry/l01/questions.json'
+		"title": 'Tamil',
+		"value": 'tamil',
+		"selected": false
 	}, {
-		text: 'Chemistry 2',
-		value: './js/quiz/chemistry/l02/questions.json'
+		"title": 'English',
+		"value": 'english',
+		"selected": false
 	}, {
-		text: 'Chemistry 3',
-		value: './js/quiz/chemistry/l03/questions.json'
+		"title": 'Maths',
+		"value": 'maths',
+		"selected": false
 	}, {
-		text: 'Chemistry 4',
-		value: './js/quiz/chemistry/l04/questions.json'
+		"title": 'Moral',
+		"value": 'moral',
+		"selected": false
+	}], 
+	"LESSON NUMBERS": [{
+		"title": '1',
+		"value": 'l01',
+		"selected": false
 	}, {
-		text: 'Chemistry 5',
-		value: './js/quiz/chemistry/l05/questions.json'
+		"title": '2',
+		"value": 'l02',
+		"selected": false
 	}, {
-		text: 'Chemistry 6',
-		value: './js/quiz/chemistry/l06/questions.json'
+		"title": '3',
+		"value": 'l03',
+		"selected": false
 	}, {
-		text: 'Chemistry 7',
-		value: './js/quiz/chemistry/l07/questions.json'
+		"title": '4',
+		"value": 'l04',
+		"selected": false
 	}, {
-		text: 'Biology 1',
-		value: './js/quiz/biology/l01/questions.json'
+		"title": '5',
+		"value": 'l05',
+		"selected": false
 	}, {
-		text: 'Biology 2',
-		value: './js/quiz/biology/l02/questions.json'
+		"title": '6',
+		"value": 'l06',
+		"selected": false
 	}, {
-		text: 'Biology 3',
-		value: './js/quiz/biology/l03/questions.json'
+		"title": '7',
+		"value": 'l07',
+		"selected": false
 	}, {
-		text: 'Biology 4',
-		value: './js/quiz/biology/l04/questions.json'
+		"title": '8',
+		"value": 'l08',
+		"selected": false
 	}, {
-		text: 'Biology 5',
-		value: './js/quiz/biology/l05/questions.json'
+		"title": '9',
+		"value": 'l09',
+		"selected": false
 	}, {
-		text: 'Biology 6',
-		value: './js/quiz/biology/l06/questions.json'
+		"title": '10',
+		"value": 'l10',
+		"selected": false
 	}, {
-		text: 'Biology 7',
-		value: './js/quiz/biology/l07/questions.json'
+		"title": '11',
+		"value": 'l11',
+		"selected": false
 	}, {
-		text: 'Biology 8',
-		value: './js/quiz/biology/l08/questions.json'
+		"title": '12',
+		"value": 'l12',
+		"selected": false
 	}, {
-		text: 'History 1',
-		value: './js/quiz/history/l01/questions.json'
+		"title": '13',
+		"value": 'l13',
+		"selected": false
 	}, {
-		text: 'History 2',
-		value: './js/quiz/history/l02/questions.json'
+		"title": '14',
+		"value": 'l14',
+		"selected": false
 	}, {
-		text: 'History 3',
-		value: './js/quiz/history/l03/questions.json'
+		"title": '15',
+		"value": 'l15',
+		"selected": false
 	}, {
-		text: 'History 4',
-		value: './js/quiz/history/l04/questions.json'
+		"title": '16',
+		"value": 'l16',
+		"selected": false
 	}, {
-		text: 'History 5',
-		value: './js/quiz/history/l05/questions.json'
+		"title": '17',
+		"value": 'l17',
+		"selected": false
 	}, {
-		text: 'History 6',
-		value: './js/quiz/history/l06/questions.json'
+		"title": '18',
+		"value": 'l18',
+		"selected": false
 	}, {
-		text: 'History 7',
-		value: './js/quiz/history/l07/questions.json'
+		"title": '19',
+		"value": 'l19',
+		"selected": false
 	}, {
-		text: 'History 8',
-		value: './js/quiz/history/l08/questions.json'
-	}, {
-		text: 'Geography 1',
-		value: './js/quiz/geography/l01/questions.json'
-	}, {
-		text: 'Geography 2',
-		value: './js/quiz/geography/l02/questions.json'
-	}, {
-		text: 'Geography 3',
-		value: './js/quiz/geography/l03/questions.json'
-	}, {
-		text: 'Geography 4',
-		value: './js/quiz/geography/l04/questions.json'
-	}, {
-		text: 'Geography 5',
-		value: './js/quiz/geography/l05/questions.json'
-	}, {
-		text: 'Geography 6',
-		value: './js/quiz/geography/l06/questions.json'
-	}, {
-		text: 'Geography 7',
-		value: './js/quiz/geography/l07/questions.json'
-	}, {
-		text: 'Geography 8',
-		value: './js/quiz/geography/l08/questions.json'
-	}, {
-		text: 'Civics 1',
-		value: './js/quiz/civics/l01/questions.json'
-	}, {
-		text: 'Civics 2',
-		value: './js/quiz/civics/l02/questions.json'
-	}, {
-		text: 'Civics 3',
-		value: './js/quiz/civics/l03/questions.json'
-	}, {
-		text: 'Civics 4',
-		value: './js/quiz/civics/l04/questions.json'
-	}, {
-		text: 'Civics 5',
-		value: './js/quiz/civics/l05/questions.json'
-	}, {
-		text: 'Civics 6',
-		value: './js/quiz/civics/l06/questions.json'
-	}, {
-		text: 'Civics 7',
-		value: './js/quiz/civics/l07/questions.json'
-	}, {
-		text: 'Economics 1',
-		value: './js/quiz/economics/l01/questions.json'
-	}, {
-		text: 'Economics 2',
-		value: './js/quiz/economics/l02/questions.json'
-	}];
+		"title": '20',
+		"value": 'l20',
+		"selected": false
+	}]
+}];
 
-	options.forEach(option =>
+/*	options.forEach(option =>
 		optionList.add(
 			new Option(option.text, option.value, option.selected)
 		)
-	);
+	); */
+
+$.each(optionsdata, function(i, optgroups) {
+            $.each(optgroups, function(groupName, options) {
+                var $optgroup = $("<optgroup>", {
+                    label: groupName
+                });
+                $optgroup.appendTo('#jsonpathselect');
+                $.each(options, function(j, option) {
+                    var $option = $("<option>", {
+                        text: option.title,
+                        value: option.value,
+						selected: option.selected
+                    });
+                    $option.appendTo($optgroup);
+                });
+            });
+        });
 
 	let questionsurl = "./js/quiz/classviii/chemistry/l01/questions.json";
 
@@ -213,7 +215,7 @@
 
 			let question_index = 0;
 			let score = 0;
-			let time_left = 45;
+			let time_left = 5;
 			let timer_fun = '';
 			let current_question_completed = false;
 

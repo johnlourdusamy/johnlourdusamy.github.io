@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="./css/chosen_v1.8.7/chosen.css"/>
 
 	<link rel="stylesheet" href="./css/quiz/style.css"/>
-	<!-- Code Highlighter CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism-tomorrow.min.css"/>
 </head>
 
 <body>
@@ -20,7 +18,7 @@
 	<div class="jsq-container" id="jsq_box">
 		<div class="jsq_header" style="display:none;">
 			<div class="jsq_head_text">JavaScript Simple Quiz Application</div>
-			<div class="jsq_time_left">Time Left <div id="jsq_timer">30</div> </div>
+			<div class="jsq_time_left">Time Left <div id="jsq_timer">45</div> </div>
 		</div>
 		<div class="jsq_body">
 
@@ -33,51 +31,11 @@
 					<div>4. You can not skip the quiz while playing.</div>
 					<div>5. You will get points based on your correct answers.</div>
 				</div>
-				<div class="jsq_info_footer">
+				<div class="jsq_info_footer">		
 		<select id="jsonpathselect" data-placeholder="Your Favorite Subject and Lesson Number" class="chosen-select" multiple >
-            <option value=""></option>
-            <optgroup label="CLASS">
-              <option value="iv">IV</option>
-              <option value="viii">VIII</option
-            </optgroup>			  
-            <optgroup label="SUBJECTS">
-              <option value="physics">Physics</option>
-              <option value="chemistry">Chemistry</option>
-              <option value="biology">Biology</option>
-              <option value="history">History</option>
-              <option value="geography">Geography</option>
-              <option value="civics">Civics</option>
-              <option value="economics">Economics</option>			  
-              <option value="tamil">Tamil</option>			  
-              <option value="english">English</option>			  
-              <option value="maths">Maths</option>			  
-              <option value="moral">Moral</option>			  			  
-            </optgroup>
-            <optgroup label="LESSON NUMBERS">
-              <option value="l01">1</option>
-              <option value="l02">2</option>
-              <option value="l03">3</option>
-              <option value="l04">4</option>
-              <option value="l05">5</option>			  
-			  <option value="l06">6</option>
-              <option value="l07">7</option>
-              <option value="l08">8</option>
-              <option value="l09">9</option>
-              <option value="l10">10</option>
-              <option value="l11">11</option>
-              <option value="l12">12</option>
-              <option value="l13">13</option>
-              <option value="l14">14</option>
-              <option value="l15">15</option>
-              <option value="l16">16</option>
-              <option value="l17">17</option>	
-              <option value="l18">18</option>	
-              <option value="l19">19</option>
-              <option value="l20">20</option>			  			  
-            </optgroup>
-          </select>
+		<option value=""></option>
+		</select>
 
-				    <select id="questionjson"></select>
 					<button class="jsq_btn" id="jsq_start">Start</button>
 				</div>
 			</div>
@@ -101,12 +59,10 @@
     <script src="./css/chosen_v1.8.7/docsupport/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script src="./css/chosen_v1.8.7/chosen.jquery.js" type="text/javascript"></script>
     <script src="./css/chosen_v1.8.7/docsupport/prism.js" type="text/javascript" charset="utf-8"></script>
-    <script src="./css/chosen_v1.8.7/docsupport/init.js" type="text/javascript" charset="utf-8"></script>
+
 	
-	<!-- Code Highlighter JS -->
-	<script src="https://cdn.jsdelivr.net/combine/npm/prismjs@1.28.0,npm/prismjs@1.28.0/components/prism-javascript.min.js"></script>
 	<script src="./js/quiz/script.js"></script>
-	
+    <script src="./css/chosen_v1.8.7/docsupport/init.js" type="text/javascript" charset="utf-8"></script>	
 	<script type="text/javascript">
 	$(document).ready(function() {
 	  var last_valid_selection = null;
@@ -118,6 +74,7 @@
 	  
 	});
 	</script>
+
 </body>
 
 </html>

@@ -42,7 +42,18 @@
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-rows: repeat(2, 100px);
 	}
-  </style>
+	
+#ansoptions > ol {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  height: 20vh;
+}
+#ansoptions > ol li {
+  flex: 1 0 25%;
+}
+
+</style>
   
 </head>
 <body>
@@ -51,15 +62,16 @@
   <div id="main" role="main" class="container">
     
     <div id="tutorial-fillblank">
-      <div class="text-style2">Drag the items to the correct blank spaces<br>(the correct answers will appear once you drag the last item)</div>
-      <div id="fillblank-text" class='text-style1'></div><br><br>
+      <div class="text-style2">Drag the items to the correct blank spaces<br/>(the correct answers will appear once you drag the last item</div>
+	  <div id="ansoptions"></div> 
+      <div id="fillblank-text" class='text-style1'></div><br/><br/>
       <div id="fillblank-ph" class='text-style3'></div>
     </div>
 </div>
 
   <script src="js/fillin/jquery-1.7.1.min.js"></script>
   <script src="js/fillin/jquery-ui-1.8.17.custom.min.js"></script>
-  <script src="js/fillin/jquery.quizyfillblank.min.js"></script>
+  <script src="js/fillin/jquery.quizyfillblank.js"></script>
   <script src="js/fillin/physics/l01/questions.js"></script>
 </body>
 </html>

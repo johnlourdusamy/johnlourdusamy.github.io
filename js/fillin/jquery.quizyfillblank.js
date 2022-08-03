@@ -37,6 +37,9 @@ if(!Array.indexOf){
     
     // keeps all the answers themself given in the parameters
     var anItemsArr = opts.anItems;
+	
+	// keeps all the answers themself given in the parameters
+    var anLabelsArr = opts.anLabels;
     
     // keeps the number of the answers and the number of the drop places
     var anNum = anItemsArr.length;
@@ -173,6 +176,25 @@ if(!Array.indexOf){
        bindEvent(document, "touchcancel", touchHandler, true);    
     }
     
+	
+	function makeOL(array) {
+    // Create the list element:
+    var list = document.createElement('ol');
+
+    for (var i = 0; i < array.length; i++) {
+        // Create the list item:
+        var item = document.createElement('li');
+
+        // Set its contents:
+        item.appendChild(document.createTextNode(array[i]));
+
+        // Add it to the list:
+        list.appendChild(item);
+    }
+
+    // Finally, return the constructed list:
+    return list;
+}
     
     // MAIN CODE **************************************************************
     // ************************************************************************    
@@ -196,6 +218,11 @@ if(!Array.indexOf){
     
     // Adding the draggable elements - the possible answers
     var elToAppend = el1;
+	
+console.log(anLabelsArr + "=" + anItemsArr);
+	// Add the contents of options[0] to #foo:
+   document.getElementById('ansoptions').appendChild(makeOL(anLabelsArr));
+
     
     for(var i=0; i<anNum; i++){
       // appends the div with the draggable answers

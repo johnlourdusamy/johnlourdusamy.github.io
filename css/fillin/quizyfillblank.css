@@ -69,6 +69,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b9d62d', endColorstr='#90aa11') progid:DXImageTransform.Microsoft.Shadow(color='#bbbbbb', Direction=135, Strength=3) !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#b9d62d), to(#90aa11));
   background: -moz-linear-gradient(top,  #b9d62d,  #90aa11);
+  left: 30px !important;
 }
 
 .quizy-fitb-res-no{
@@ -76,6 +77,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e84097', endColorstr='#b81469') progid:DXImageTransform.Microsoft.Shadow(color='#bbbbbb', Direction=135, Strength=3) !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#e84097), to(#b81469));
   background: -moz-linear-gradient(top,  #e84097,  #b81469);
+  left: 30px !important;
 }
 
 .quizy-fitb-res-num{

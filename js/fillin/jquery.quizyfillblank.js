@@ -323,7 +323,7 @@ var myInit = {
       $('#'+opts.numberId+i).position( { of: $('#'+opts.answerId+i), 
                                          my: 'right center', 
                                          at: 'right center', 
-                                         offset:'30px -10px' } );
+                                         offset:'10px -10px' } );
       // Hides the answers at the begining of the exercise
       $('#'+opts.checkId+i).hide();
       $('#'+opts.numberId+i).hide();

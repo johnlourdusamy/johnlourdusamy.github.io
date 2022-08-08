@@ -1,13 +1,13 @@
 {
  "subject": "physics",
- "lesson": "l08",
+ "lesson": "l02",
  "grade": "c8",
  "quests": [
 {
- "textItems":["1. QUESTION L02-1 ", ". <br/>2. QUESTION L02-2 ", "<br/>3. QUESTION L02-3 ", "<br/>4. QUESTION L02-4 ", "<br/>5. QUESTION L02-5", ". <br/>6. QUESTION L02-6", ". <br/>7. QUESTION L02-7 ", "."],
+ "textItems":["1. The pressure of a liquid column ==== with the depth of the column.", " <br/>2. Hydraulic lift works under the principle of ", ".<br/>3. The property of ==== of a liquid surface enables the water droplets to move upward in plants.", "<br/>4. A simple barometer was first constructed by ", "."],
  "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
- "anItemsCorrect": [2,0,3,1,5,4,6],
- "anLabels": ["ANS1", "ANS2", "ANS3", "ANS4", "ANS5", "ANS6", "ANS7", "ANS8", "ANS9", "ANS10"],
+ "anItemsCorrect": [1,5,7,9],
+ "anLabels": ["buyoancy", "increase", "decrease", "Blasie Pascal", "poise", "pascal law", "Thrust", "surface tension", "Xylem", "Torricelli"],
  "blockSize": 25,
  "elementAnId": "fillblank-ph",
  "elementTextId": "fillblank-text", 

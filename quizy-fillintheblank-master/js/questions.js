@@ -1,4 +1,6 @@
-{
+//$("#tutorial-fillblank").quizyFillBlank(
+
+let questions = {
  "subject": "physics",
  "lesson": "l08",
  "grade": "c8",
@@ -20,4 +22,6 @@
 }
 ]
 
-}
+};
+
+//);

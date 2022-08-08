@@ -1,0 +1,10 @@
+    $('#tutorial-fillblank').quizyFillBlank({
+          textItems:['1. QUESTION L05-1 ', '. <br/>2. QUESTION L05-2 ', '<br/>3. QUESTION L05-3 ', '<br/>4. QUESTION L05-4 ', '<br/>5. QUESTION L05-5', '. <br/>6. QUESTION L05-6', '. <br/>7. QUESTION L05-7 ', '.'],
+          anItems:['1', '2', '3', '4', '5', '6', '7', '8', '9', '10' ], 
+          anItemsCorrect:[2,0,3,1,5,4,6],
+		  anLabels: ['ANS1', 'ANS2', 'ANS3', 'ANS4', 'ANS5', 'ANS6', 'ANS7', 'ANS8', 'ANS9', 'ANS10' ],
+          blockSize:25,
+	  subject: "biology",
+	  lesson: "l05",
+	  grade: "c4"
+        });

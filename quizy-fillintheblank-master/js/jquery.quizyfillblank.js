@@ -1,3 +1,12 @@
+// ***
+//  Memory game plugin for jQuery
+//  Author: Yane Frenski
+//  https://github.com/frenski/quizy-fillintheblank
+//
+//  (c) 2012-2013 http://yane.fr/
+//  MIT licensed
+// ***
+
 
 // IE hack for indexOf
 if(!Array.indexOf){
@@ -10,71 +19,13 @@ if(!Array.indexOf){
    return -1;
   }
 }
-	  
-	  
-	  	    let questions = {};
-
-$("#jsonpathselect").chosen().change(function() {
-		let orderselection = [];
-		let selectedjsonpath = [];
-        let questionsurl = "";
-
-		const pattern = /^(M{1,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})|M{0,4}(CM|C?D|D?C{1,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})|M{0,4}(CM|CD|D?C{0,3})(XC|X?L|L?X{1,3})(IX|IV|V?I{0,3})|M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|I?V|V?I{1,3}))$/;
-
-		$.each($(this).val(), function(index, value) {
-			orderselection.push(value);
-			$.isNumeric(value) ? orderselection.push(orderselection.splice(orderselection.indexOf(value), 1)[0]) : '';
-			pattern.test(value) ? orderselection.unshift(value) : '';
-		});
 
 
-		orderselection[0] = './js/fillin/class' + orderselection[0] + '/';
-		orderselection[orderselection.length - 1] = '/' + orderselection[orderselection.length - 1] + '/questions.json';
-		selectedjsonpath = orderselection.join('');
-
-		console.log(orderselection.length);
-
-		questionsurl = (orderselection.length == 3) ? selectedjsonpath : questionsurl;
-		
-		fetjsonfile(questionsurl);
-
-		console.log(questionsurl);
-		
-
-});
-	  
-
-
-function fetjsonfile(questionsurl) {
-		
-
-var myInit = {
-  method: 'GET',
-  headers: {
-    'Content-Type': 'application/json'
-		   },
-  mode: 'cors',
-  cache: 'default'
-  };
-		
-		console.log(questionsurl);
-
-  let myRequest = new Request(questionsurl, myInit);
-
-  fetch(myRequest).then(function(resp) {
-    return resp.json();
-  }).then(function(data) {
-    Object.assign(questions, data);
-    console.log(questions.quests[0].blockSize);
-    formatjson(questions);
-  });
-
-}
 
 (function($) {
   $.fn.quizyFillBlank = function(options) {
 	  
-		  console.log(options.quests[0].textItems);
+		  //console.log(options.quests[0].textItems);
     
     // VARIABLES **************************************************************
     // ************************************************************************
@@ -85,17 +36,13 @@ var myInit = {
     
     // keeps the text items given in the parameters
     var textItems = opts.textItems;
+	console.log(textItems);
     
     // keeps the order of the items given in the parameters
     var anItemsOrderArr = opts.anItemsCorrect;
     
     // keeps all the answers themself given in the parameters
     var anItemsArr = opts.anItems;
-	
-	// keeps all the answers themself given in the parameters
-    //var anLabelsArr = opts.anLabels;
-	  let anLabelsArr = opts.anLabels;
-
     
     // keeps the number of the answers and the number of the drop places
     var anNum = anItemsArr.length;
@@ -231,26 +178,6 @@ var myInit = {
        bindEvent(document, "touchend", touchHandler, true);
        bindEvent(document, "touchcancel", touchHandler, true);    
     }
-	
-	function makeOL(array) {
-    // Create the list element:
-      var list = document.createElement('ol');
-
-    for (var i = 0; i < array.length; i++) {
-        // Create the list item:
-        var item = document.createElement('li');
-
-        // Set its contents:
-        item.appendChild(document.createTextNode(array[i]));
-
-        // Add it to the list:
-        list.appendChild(item);
-    }
-
-    // Finally, return the constructed list:
-    return list;
-	}
-
     
     
     // MAIN CODE **************************************************************
@@ -275,8 +202,6 @@ var myInit = {
     
     // Adding the draggable elements - the possible answers
     var elToAppend = el1;
-	
-	document.getElementById('ansoptions').appendChild(makeOL(anLabelsArr));
     
     for(var i=0; i<anNum; i++){
       // appends the div with the draggable answers
@@ -323,7 +248,7 @@ var myInit = {
       $('#'+opts.numberId+i).position( { of: $('#'+opts.answerId+i), 
                                          my: 'right center', 
                                          at: 'right center', 
-                                         offset:'30px -10px' } );
+                                         offset:'10px -10px' } );
       // Hides the answers at the begining of the exercise
       $('#'+opts.checkId+i).hide();
       $('#'+opts.numberId+i).hide();
@@ -383,28 +308,9 @@ var myInit = {
   ****************************************************************************/
 
   $.fn.quizyFillBlank.defaults = {elementAnId: 'fillblank-ph', textItems:['Text part1','text part 2', 'text part 3'], elementTextId: 'fillblank-text', anItems: ['an1','an2','an3'], anItemsCorrect:[2,0], answerId:'d-answer', phId: 'd-nest', checkId:'d-check', numberId:'d-number', blockSize:100, onFinishCall:'', allowTouchDrag:true}
-  
+   
 
-  
+		
+
 })(jQuery);
 
-
-
-
-
-function formatjson(questions) {
-
-$("#tutorial-fillblank").quizyFillBlank(questions);
-}
-
-
-		// start quiz
-			const startQuiz = () => {
-				document.querySelector(".jsq_header").removeAttribute("style");
-				document.querySelector(".jsq_main_content").removeAttribute("style");
-				document.querySelector(".jsq_footer").removeAttribute("style");
-				document.querySelector("#jsq_ifo_box").remove();
-			};
-
-const start_button = document.getElementById("jsq_start");
-			start_button.addEventListener("click", startQuiz);

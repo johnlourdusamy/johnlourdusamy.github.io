@@ -6,8 +6,8 @@
 {
  "textItems":["1.The element which possesses the character of both metals and non metals are called ====", " <br/>2.The symbol of tungsten is ====", ".<br/>3. Melting point of most metal is __________ than non-metal. ", "<br/>4.Water contains _________ and _________ element.","<br/>5.____________ is used as semiconductor.", "."],
  "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
- "anItemsCorrect": [1,5,7,9],
- "anLabels": ["ANS 1", "ANS 2", "ANS 3", "ANS 4", "ANS 5", "ANS 6", "ANS 7", "ANS 8", "ANS 9", "ANS 10"],
+ "anItemsCorrect": [3,2,0,4,1],
+ "anLabels": ["Higher", "Silicon/Germanium", "W", "Metalloids", "Hydrogen, Oxygen", "Gas", "Solid", "Liquid", "Carbon", "Lower"],
  "blockSize": 25,
  "elementAnId": "fillblank-ph",
  "elementTextId": "fillblank-text", 

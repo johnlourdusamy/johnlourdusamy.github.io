@@ -6,8 +6,8 @@
 {
  "textItems":["1. Photosynthesis is a chemical reaction that takes place in the presence of __________.", " <br/>2. Iron objects undergo rusting when exposed to __________ and __________.", ".<br/>3.__________ is the basic material to manufacture urea. ", "<br/>4. Electrolysis of brine solution gives __________ gases.", "<br/>5.__________ is a chemical substance which alters the speed of a chemical reaction. ", "<br/>6.__________ is the enzyme responsible for browning of vegetables and fruits. ", "."],
  "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
- "anItemsCorrect": [1,5,7,9],
- "anLabels": ["ANS 1", "ANS 2", "ANS 3", "ANS 4", "ANS 5", "ANS 6", "ANS 7", "ANS 8", "ANS 9", "ANS 10"],
+ "anItemsCorrect": [2,5,3,4,1,0],
+ "anLabels": ["Polyphenol oxidase or tyrosinase", "Catalyst", "Sun light", "Ammonia", "Chlorine and Hydrogen", "Water, Oxygen", "Iron", "Nitrogen", "Material", "acid rain"],
  "blockSize": 25,
  "elementAnId": "fillblank-ph",
  "elementTextId": "fillblank-text", 

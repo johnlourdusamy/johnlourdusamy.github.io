@@ -1,13 +1,33 @@
-<!Doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 <head>
+<meta charset="utf-8"/>  
 <title>Jumbled sentences</title>
-<link rel="stylesheet" href="css/jumbledsentences/style.css">
+<link rel="stylesheet" href="./css/chosen_v1.8.7/docsupport/style.css"/>
+<link rel="stylesheet" href="./css/chosen_v1.8.7/docsupport/prism.css"/>
+<link rel="stylesheet" href="./css/chosen_v1.8.7/chosen.css"/>
+<link rel="stylesheet" href="./css/quiz/style.css"/>
+<link rel="stylesheet" href="css/jumbledsentences/style.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body onload='pickasentence();'>
+<body>
+<div class="jsq-container" id="jsq_box">
+<div class="jsq_header" style="display:none;"><div class="jsq_head_text">Jumbled sentences</div></div>
+<div class="jsq_body">
+<div id="jsq_ifo_box">
+<div class="jsq_info_head">Some Rules of this Jumbled sentences</div>
+<div class="jsq_info_list">
+<div>1. Select the items.</div>
+<div>2. The correct answers will appear once you select the other item.</div>
+</div>
+<div class="jsq_info_footer">		
+<select id="jsonpathselect" data-placeholder="Your Favorite Subject and Lesson Number" class="chosen-select" multiple ><option value=""></option></select>
+<button class="jsq_btn" id="jsq_start">Start</button>
+</div>
+</div>
+
+<div class="jsq_main_content" style="display: none;"> <!-- main content opening -->
 <div class="wrapper">
-<h1>Jumbled Sentences</h1>
 
 <div class="content">
 <h4 id='score'>Score: 0 from Sentences: 0</h4>
@@ -19,7 +39,40 @@
 </div>
 
 </div>
-<script src="js/jumbledsentences/sentences.js"></script>
-<script src="js/jumbledsentences/script.js"></script>
+
+
+<form id="jsonform">
+<input type="hidden" name="jsondata" id="jsondata"/>
+<button type="submit">Refresh</button>
+</form>
+</div> <!-- main content div closing -->
+
+<div class="jsq_footer" style="display: none;">
+<button class="jsq_btn" id="prev_question">Previous</button>
+<div id="jsq_total"> </div>
+<button class="jsq_btn" id="next_question">Next</button>
+</div>
+
+</div>
+
+<script src="./css/chosen_v1.8.7/docsupport/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="./css/chosen_v1.8.7/chosen.jquery.js" type="text/javascript"></script>
+<script src="./css/chosen_v1.8.7/docsupport/prism.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/folderstructure.js"></script>	
+<script src="./js/jsonselection.js"></script>	
+<script src="./js/jumbledsentences/script.js"></script>
+<script src="./css/chosen_v1.8.7/docsupport/init.js" type="text/javascript" charset="utf-8"></script>	
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    var last_valid_selection = null;
+    $(".chosen-select").bind("chosen:maxselected", function () { 
+      $("#jsq_start").prop('disabled', false);
+        $(this).children().val(last_valid_selection);
+      });
+  });
+</script>
+
+    
 </body>
 </html>

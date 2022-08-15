@@ -5,223 +5,157 @@
  "quests": [
 	{
 		"id": 1,
-		"question": "QUESTION",
+		"question": "Earth's atmosphere contains about percentage of nitrogen and oxygen.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "78% and 21%",
+			"b": "22% and 1%",
+			"c": "21% and 0.97%",
+			"d": "10% and 20%"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 2,
-		"question": "QUESTION",
+		"question": "is generally defined as the average conditions of the weather of a place or a region.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "earth",
+			"b": "atmosphere",
+			"c": "climate",
+			"d": "sun"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	},
 	{
 		"id": 3,
-		"question": "QUESTION",
+		"question": "The earth receives energy from",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "current",
+			"b": "electro magnetic radiation",
+			"c": "waves",
+			"d": "heat"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 4,
-		"question": "QUESTION",
+		"question": "Which one the following represents places with equal amount of rainfall",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "isotherm",
+			"b": "isohel",
+			"c": "isobar",
+			"d": "isohytes"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 5,
-		"question": "QUESTION",
+		"question": "is used to measure the humidity.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "anemometer",
+			"b": "barometer",
+			"c": "hygrometer",
+			"d": "thermometer"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	},
 	{
 		"id": 6,
-		"question": "QUESTION",
+		"question": "Climate",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Locating and Tracking Storms",
+			"b": "Cyclone",
+			"c": "Equal Snowfall",
+			"d": "Long Term Changes"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 7,
-		"question": "QUESTION",
+		"question": "Isonif",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Locating and Tracking Storms",
+			"b": "Cyclone",
+			"c": "Equal Snowfall",
+			"d": "Long Term Changes"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	},
 	{
 		"id": 8,
-		"question": "QUESTION",
+		"question": "Hygrometer",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Locating and Tracking Storms",
+			"b": "humidity",
+			"c": "Equal Snowfall",
+			"d": "Long Term Changes"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 9,
-		"question": "QUESTION",
+		"question": "Radar",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Locating and Tracking Storms",
+			"b": "Cyclone",
+			"c": "Equal Snowfall",
+			"d": "Long Term Changes"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 10,
-		"question": "QUESTION",
+		"question": "Low Pressure",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Locating and Tracking Storms",
+			"b": "Cyclone",
+			"c": "Equal Snowfall",
+			"d": "Long Term Changes"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 11,
-		"question": "QUESTION",
+		"question": "The atmosphere is a layer of gases surrounding the planet.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 12,
-		"question": "QUESTION",
+		"question": "The Scientific study of weather is called Climatology.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 13,
-		"question": "QUESTION",
+		"question": "Isohel refers equal sunshine.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 14,
-		"question": "QUESTION",
+		"question": "Humidity is calculated by Aneroid Barometer.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
-	},
-	{
-		"id": 15,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 16,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 17,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 18,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 19,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-{
-		"id": 20,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
+		"answer": "b"
 	}
   ]
 }

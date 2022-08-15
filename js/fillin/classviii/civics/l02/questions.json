@@ -1,12 +1,23 @@
 {
-          textItems:['1. QUESTION L02-1 ', '. <br/>2. QUESTION L02-2 ', '<br/>3. QUESTION L02-3 ', '<br/>4. QUESTION L02-4 ', '<br/>5. QUESTION L02-5', '. <br/>6. QUESTION L02-6', '. <br/>7. QUESTION L02-7 ', '.'],
-          anItems:['1', '2', '3', '4', '5', '6', '7', '8', '9', '10' ], 
-          anItemsCorrect:[2,0,3,1,5,4,6],
-		  anLabels: ['ANS1', 'ANS2', 'ANS3', 'ANS4', 'ANS5', 'ANS6', 'ANS7', 'ANS8', 'ANS9', 'ANS10' ],
-          blockSize:25,
-	  subject: "chemistry",
-	  lesson: "l02",
-	  grade: "c8"
-        }
+ "subject": "civics",
+ "lesson": "l02",
+ "grade": "c8",
+ "quests": [
+{
+ "textItems":["1. ___________ of a state enjoy full civil and political rights. ", " <br/>2. Our Indian Constitution provides for only ______________citizenship. ", ".<br/>3.An Indian citizen who is residing outside India and holds an Indian passport are called__________________.", "<br/>4. All have right and __________responsibility citizens. ","<br/>5.__________ is an idea enabling young people to access and participate in shaping modern society. ", "."],
+ "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+ "anItemsCorrect": [3,6,9,0,2],
+ "anLabels": ["Civic", "India", "Global citizenship", "Citizens", "Civil", "rights", "single", "people", "Non-Resident-Indian", "state"],
+ "blockSize": 25,
+ "elementAnId": "fillblank-ph",
+ "elementTextId": "fillblank-text", 
+ "answerId":"d-answer",
+ "phId": "d-nest", 
+ "checkId":"d-check", 
+ "numberId":"d-number", 
+ "onFinishCall":"",
+ "allowTouchDrag":true
+}
+]
 
- //   $('#tutorial-fillblank').quizyFillBlank();
+}

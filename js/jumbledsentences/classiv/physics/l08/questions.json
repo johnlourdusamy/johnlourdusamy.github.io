@@ -1,0 +1,55 @@
+{
+ "subject": "physics",
+ "lesson": "l08",
+ "grade": "c8",
+ "quests": [
+  {
+  "id": 1,
+  "answer": "Length"
+  },
+  {
+  "id": 2,
+  "answer": "Mass"
+  },
+  {
+  "id": 3,
+  "answer": "Temp."
+  },
+  {
+  "id": 4,
+  "answer": "E.cur."
+  },
+  {
+  "id": 5,
+  "answer": "A.sub."
+  },
+  {
+  "id": 6,
+  "answer": "L.Int."
+  },
+  {
+  "id": 1,
+  "answer": "m"
+  },
+  {
+  "id": 2,
+  "answer": "kg"
+  },
+  {
+  "id": 3,
+  "answer": "k"
+  },
+  {
+  "id": 4,
+  "answer": "A"
+  },
+  {
+  "id": 5,
+  "answer": "mol"
+  },
+  {
+  "id": 6,
+  "answer": "cd"
+  }
+]
+}

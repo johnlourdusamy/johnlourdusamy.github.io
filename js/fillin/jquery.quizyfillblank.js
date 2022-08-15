@@ -32,13 +32,11 @@ $("#jsonpathselect").chosen().change(function() {
 		orderselection[orderselection.length - 1] = '/' + orderselection[orderselection.length - 1] + '/questions.json';
 		selectedjsonpath = orderselection.join('');
 
-		console.log(orderselection.length);
-
 		questionsurl = (orderselection.length == 3) ? selectedjsonpath : questionsurl;
 		
 		fetjsonfile(questionsurl);
 
-		console.log(questionsurl);
+		//console.log(questionsurl);
 		
 
 });
@@ -57,7 +55,7 @@ var myInit = {
   cache: 'default'
   };
 		
-		console.log(questionsurl);
+		//console.log(questionsurl);
 
   let myRequest = new Request(questionsurl, myInit);
 
@@ -65,7 +63,7 @@ var myInit = {
     return resp.json();
   }).then(function(data) {
     Object.assign(questions, data);
-    console.log(questions.quests[0].blockSize);
+    //console.log(questions.quests[0].blockSize);
     formatjson(questions);
   });
 
@@ -74,7 +72,7 @@ var myInit = {
 (function($) {
   $.fn.quizyFillBlank = function(options) {
 	  
-		  console.log(options.quests[0].textItems);
+		  //console.log(options.quests[0].textItems);
     
     // VARIABLES **************************************************************
     // ************************************************************************

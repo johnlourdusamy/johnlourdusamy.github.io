@@ -11,7 +11,7 @@
 			"c": "Mir Qasim",
 			"d": "Tipu Sultan"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 2,
 		"question": "The Battle of Plassey was fought in ",
@@ -21,7 +21,7 @@
 			"c": "1765",
 			"d": "1775"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	}, {
 		"id": 3,
 		"question": "Which among the following treaty was signed after Battle of Buxar?",
@@ -31,7 +31,7 @@
 			"c": "Treaty of Alinagar",
 			"d": "Treaty of Paris"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	}, {
 		"id": 4,
 		"question": "The Treaty of Pondichery brought the Carnatic war to an end .",
@@ -41,7 +41,7 @@
 			"c": "Third",
 			"d": "None"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 5,
 		"question": "When did Hyder Ali crown on the throne of Mysore?",
@@ -51,7 +51,7 @@
 			"c": "1763",
 			"d": "1763"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 6,
 		"question": "Treaty of Mangalore was signed between. ",
@@ -61,7 +61,7 @@
 			"c": "The British and Tipu Sultan",
 			"d": "Tipu Sultan and Marathas"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	}, {
 		"id": 7,
 		"question": "Who was the British Governor General during Third Anglo-Mysore War?",
@@ -71,7 +71,7 @@
 			"c": "Lord Cornwallis",
 			"d": "Lord Wellesley"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	}, {
 		"id": 8,
 		"question": "Who signed the Treaty of Bassein with the British?",
@@ -81,7 +81,7 @@
 			"c": "Sambhaji Bhonsle",
 			"d": "Sayyaji Rao Gaekwad"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	}, {
 		"id": 9,
 		"question": "Who was the last Peshwa of Maratha empire?",
@@ -91,7 +91,7 @@
 			"c": "Balaji Baji Rao",
 			"d": "Baji Rao"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 10,
 		"question": "Who was the first Indian state to join the subsidiary Alliance?",
@@ -101,7 +101,7 @@
 			"c": "Udaipur",
 			"d": "Gwalior"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 11,
 		"question": "Treaty of Aix-La-Chapelle",
@@ -111,7 +111,7 @@
 			"c": "The Third Carnatic War",
 			"d": "The First Maratha War"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 12,
 		"question": "Treaty of Salbai",
@@ -121,7 +121,7 @@
 			"c": "The Third Carnatic War",
 			"d": "The First Maratha War"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	}, {
 		"id": 13,
 		"question": "Treaty of Paris",
@@ -131,7 +131,7 @@
 			"c": "The Third Carnatic War",
 			"d": "The First Maratha War"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	}, {
 		"id": 14,
 		"question": "Treaty of Srirangapatnam",
@@ -141,7 +141,7 @@
 			"c": "The Third Carnatic War",
 			"d": "The First Maratha War"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	}, {
 		"id": 15,
 		"question": "Treaty of Madras",
@@ -151,7 +151,7 @@
 			"c": "The Third Carnatic War",
 			"d": "The First Maratha War"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	}, {
 		"id": 16,
 		"question": "After the death of Alivardi Khan, Siraj-ud-daulah ascended the throne of Bengal.",
@@ -161,7 +161,7 @@
 			"c": "",
 			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	}, {
 		"id": 17,
 		"question": "Hector Munro, led the British forces in the battle of Plassey.",
@@ -171,7 +171,7 @@
 			"c": "",
 			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 18,
 		"question": "The outbreak of the Austrian war of succession in Europe was led to Second Carnatic War in India.",
@@ -181,7 +181,7 @@
 			"c": "",
 			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 19,
 		"question": "Sir Elijah Impey was the first Chief Justice of the Supreme Court at Fort William in Bengal.",
@@ -191,7 +191,7 @@
 			"c": "",
 			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	}, {
 		"id": 20,
 		"question": "The Police system was created by Lord Cornwallis.",
@@ -201,46 +201,7 @@
 			"c": "",
 			"d": ""
 		},
-		"answer": "ANS"
-	}, {
-		"id": 21,
-		"question": "Battle of Adayar",
-		"options": {
-			"a": "1748",
-			"b": "1754",
-			"c": "1760",
-			"d": "1749"
-		},
-		"answer": "ANS"
-	}, {
-		"id": 22,
-		"question": "Battle of Ambur",
-		"options": {
-			"a": "1748",
-			"b": "1754",
-			"c": "1760",
-			"d": "1749"
-		},
-		"answer": "ANS"
-	}, {
-		"id": 20,
-		"question": "Battle of Wandiwash",
-		"options": {
-			"a": "1748",
-			"b": "1754",
-			"c": "1760",
-			"d": "1749"
-		},
-		"answer": "ANS"
-	}, {
-		"id": 20,
-		"question": "Battle of Arcot",
-		"options": {
-			"a": "1748",
-			"b": "1754",
-			"c": "1760",
-			"d": "1749"
-		},
-		"answer": "ANS"
-	}]
+		"answer": "a"
+	}
+]
 }

@@ -11,7 +11,7 @@
 			"c": "Alfonso de Albuquerque",
 			"d": "Almeida"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	}, {
 		"id": 2,
 		"question": "Which of the following European Nation was the foremost attempt to discover a sea route to India?",
@@ -21,7 +21,7 @@
 			"c": "Britain",
 			"d": "Portugal"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 3,
 		"question": "In 1453 Constantinople was captured by ____________.",
@@ -31,7 +31,7 @@
 			"c": "The Dutch",
 			"d": "The British"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 4,
 		"question": "Sir William Hawkins belonged to ____________.",
@@ -41,7 +41,7 @@
 			"c": "England",
 			"d": "France"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	}, {
 		"id": 5,
 		"question": "The first fort constructed by the British in India was ____________.",
@@ -51,7 +51,7 @@
 			"c": "Agra Fort",
 			"d": "Fort St. David"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 6,
 		"question": "Who among the following Europeans were the last to come India as traders?",
@@ -61,7 +61,7 @@
 			"c": "The Danish",
 			"d": "The Portuguese"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 7,
 		"question": "Tranquebar on the Tamilnadu coast was a trade centre of the ____________.",
@@ -71,7 +71,7 @@
 			"c": "The French",
 			"d": "The Danish"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	}, {
 		"id": 8,
 		"question": "Auto biography is one of the written sources.",
@@ -81,7 +81,7 @@
 			"c": "",
 			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	}, {
 		"id": 9,
 		"question": "Coins are one of the material sources.",
@@ -91,7 +91,7 @@
 			"c": "",
 			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	}, {
 		"id": 10,
 		"question": "Ananda Rangam was a translator served under British.",
@@ -101,7 +101,7 @@
 			"c": "",
 			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 11,
 		"question": "The place where historical documents are preserved is called archives.",
@@ -111,7 +111,7 @@
 			"c": "",
 			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	}, {
 		"id": 12,
 		"question": "The Dutch",
@@ -121,7 +121,7 @@
 			"c": "1600",
 			"d": "1616"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	}, {
 		"id": 13,
 		"question": "The British",
@@ -131,7 +131,7 @@
 			"c": "1600",
 			"d": "1616"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	}, {
 		"id": 14,
 		"question": "The Danish",
@@ -141,7 +141,7 @@
 			"c": "1600",
 			"d": "1616"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	}, {
 		"id": 15,
 		"question": "The French",
@@ -151,56 +151,7 @@
 			"c": "1600",
 			"d": "1616"
 		},
-		"answer": "ANS"
-	}, {
-		"id": 16,
-		"question": "QUESTION",
-		"options": {
-			"a": "1664",
-			"b": "1602",
-			"c": "1600",
-			"d": "1616"
-		},
-		"answer": "ANS"
-	}, {
-		"id": 17,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	}, {
-		"id": 18,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	}, {
-		"id": 19,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	}, {
-		"id": 20,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	}]
+		"answer": "a"
+	}
+]
 }

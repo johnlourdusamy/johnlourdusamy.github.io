@@ -63,14 +63,17 @@ function scoreit(tvo) {
     }
   }
   document.getElementById('score').innerHTML='Score: ' + score + ' from Sentences: ' + goes;
-  if (selcnt <= 0) pickasentence();
+  console.log(selcnt)
+  if (selcnt <= 0) formatjson(questions);
 }
 
-function pickasentence() {
+function pickasentence(questions) {
+	console.log(questions.length);
   var divih='', wordbits, wordbits2=[], selbit='', iid, ii, iiq, found=false, liststuff="", dl="", optstuff="";
-  var choice = Math.floor(Math.random() * sentences.length), opts=[], thisopt="", done=[], ioffset=0, jiid;
+  var choice = Math.floor(Math.random() * questions.length), opts=[], thisopt="", done=[], ioffset=0, jiid;
+  console.log(choice);
   var tablebit='<br><table style=background-color:yellow;><tr></tr></table>';
-  bits=sentences[choice].replace(/]/g,'').split('[');
+  bits=questions[choice].replace(/]/g,'').split('[');
   usual=true;
   prefix='';
   selcnt=0;
@@ -164,11 +167,18 @@ function pickasentence() {
   
 }
 
-function addthis() {
+function addthis(questions) {
   var idea=prompt("Optionally, add you own sentence, into the mix, as exemplified by ...", "It was great to see them again after all those years. [After all those years it was great to see them again.]");
   if (idea != null) {
     if (idea != '') {
-     sentences.push(idea);
+     questions.push(idea);
     }
   }
+}
+
+function formatjson(questions) {
+	document.getElementById("jsondata").value=JSON.stringify(questions);
+	questions = questions.quests;
+	console.log(questions);
+	pickasentence(questions);
 }

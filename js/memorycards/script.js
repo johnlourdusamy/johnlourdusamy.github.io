@@ -3,14 +3,71 @@ timeTag = document.querySelector(".time b"),
 flipsTag = document.querySelector(".flips b"),
 refreshBtn = document.querySelector(".details button");
 
-let maxTime = 25;
+let maxTime = 2;
 let timeLeft = maxTime;
 let flips = 0;
 let matchedCard = 0;
 let disableDeck = false;
 let isPlaying = false;
 let cardOne, cardTwo, timer;
-let questions = jsq_questions;
+let samplequestions = {
+ "subject": "physics",
+ "lesson": "l01",
+ "grade": "c8",
+ "quests": [
+  {
+  "id": 1,
+  "answer": "J"
+  },
+  {
+  "id": 2,
+  "answer": "Jhn"
+  },
+  {
+  "id": 3,
+  "answer": "L"
+  },
+  {
+  "id": 4,
+  "answer": "Lrd"
+  },
+  {
+  "id": 5,
+  "answer": "S"
+  },
+  {
+  "id": 6,
+  "answer": "swt"
+  },
+  {
+  "id": 1,
+  "answer": "e"
+  },
+  {
+  "id": 2,
+  "answer": "sel"
+  },
+  {
+  "id": 3,
+  "answer": "r"
+  },
+  {
+  "id": 4,
+  "answer": "rej"
+  },
+  {
+  "id": 5,
+  "answer": "o"
+  },
+  {
+  "id": 6,
+  "answer": "jos"
+  }
+]
+};
+//questions = samplequestions.quests;
+
+console.log(questions);
 
 function initTimer() {
     if(timeLeft <= 0) {
@@ -66,7 +123,7 @@ function matchCards(img1, img2) {
     }, 1200);
 }
 
-function shuffleCard() {
+function shuffleCard(questions) {
     timeLeft = maxTime;
     flips = matchedCard = 0;
     cardOne = cardTwo = "";
@@ -75,27 +132,56 @@ function shuffleCard() {
     flipsTag.innerText = flips;
     disableDeck = isPlaying = false;
 
+	console.log(questions);
     //let arr = [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6];
     //arr.sort(() => Math.random() > 0.5 ? 1 : -1);
 
-	questions.sort(() => Math.random() > 0.5 ? 1 : -1);
+	if (questions && Object.keys(questions).length === 0 && questions.constructor === Object) {
+		
+	} else {
+	  questions.sort(() => Math.random() > 0.5 ? 1 : -1);
+	}
 
     cards.forEach((card, index) => {
         card.classList.remove("flip");
         let imgTag = card.querySelector(".back-view img");
 		let iTag = card.querySelector(".back-view i");
         setTimeout(() => {
-            imgTag.src = `images/memorycards/img-${questions[index].id}.png`;
-			iTag.setAttribute('data-txt', questions[index].answer);
+				if (questions && Object.keys(questions).length === 0 && questions.constructor === Object) {
+		
+				} else {
+				  imgTag.src = `images/memorycards/img-${questions[index].id}.png`;
+				  iTag.setAttribute('data-txt', questions[index].answer);
+				}
         }, 500);
         card.addEventListener("click", flipCard);
     });
 }
 
-shuffleCard();
+shuffleCard(questions);
 
-refreshBtn.addEventListener("click", shuffleCard);
+const form = document.getElementById('jsonform');
+
+form.addEventListener('submit', callbackFunction);
+function callbackFunction(event) {
+    event.preventDefault();
+    const myFormData = new FormData(event.target);
+
+    const formDataObj = Object.fromEntries(myFormData.entries());
+	let selectedquestions = JSON.parse(formDataObj.jsondata);
+    console.log(selectedquestions.subject);
+	shuffleCard(selectedquestions.quests);
+}
+
+//refreshBtn.addEventListener("click", formatjson);
 
 cards.forEach(card => {
     card.addEventListener("click", flipCard);
 });
+
+function formatjson(questions) {
+document.getElementById("jsondata").value=JSON.stringify(questions);
+questions = questions.quests;
+questions.forEach(element => console.log(element.answer));
+shuffleCard(questions);
+}

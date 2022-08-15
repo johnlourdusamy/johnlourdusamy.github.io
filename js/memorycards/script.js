@@ -182,6 +182,9 @@ cards.forEach(card => {
 function formatjson(questions) {
 document.getElementById("jsondata").value=JSON.stringify(questions);
 questions = questions.quests;
-questions.forEach(element => console.log(element.answer));
+let anLabelsArr = [];
+questions.forEach(element => (element.fullform !== undefined) ? anLabelsArr.push(element.answer + " = " + element.fullform) : '');
+document.getElementById('ansoptions').appendChild(makeOL(anLabelsArr));
+console.log(anLabelsArr);
 shuffleCard(questions);
 }

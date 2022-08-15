@@ -11,10 +11,10 @@ maxTime = 60,
 timeLeft = maxTime,
 charIndex = mistakes = isTyping = 0;
 
-function loadParagraph() {
-    const ranIndex = Math.floor(Math.random() * paragraphs.length);
+function loadParagraph(questions) {
+    const ranIndex = Math.floor(Math.random() * questions.length);
     typingText.innerHTML = "";
-    paragraphs[ranIndex].split("").forEach(char => {
+    questions[ranIndex].split("").forEach(char => {
         let span = `<span>${char}</span>`
         typingText.innerHTML += span;
     });
@@ -86,6 +86,13 @@ function resetGame() {
     cpmTag.innerText = 0;
 }
 
-loadParagraph();
+//loadParagraph(questions);
 inpField.addEventListener("input", initTyping);
 tryAgainBtn.addEventListener("click", resetGame);
+
+function formatjson(questions) {
+	document.getElementById("jsondata").value=JSON.stringify(questions);
+	questions = questions.quests;
+	console.log(questions);
+	loadParagraph(questions);
+}

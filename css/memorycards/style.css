@@ -182,3 +182,21 @@ body{
 .back-view i {
   font-size: 0.8rem;
 }
+
+      .container {  
+     display: grid;  
+    grid-gap: 5px;  
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 50px);
+	}
+
+  
+  #ansoptions > ol {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  height: 20vh;
+}
+#ansoptions > ol li {
+  flex: 1 0 25%;
+}

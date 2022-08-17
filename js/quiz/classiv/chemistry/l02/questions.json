@@ -41,7 +41,7 @@
 			"c": "starch",
 			"d": "ozone"
 		},
-		"answer": "a"
+		"answer": "b"
 	}, {
 		"id": 5,
 		"question": "Brine is a concentrated solution of _____.",
@@ -138,7 +138,7 @@
 		"options": {
 			"a": "Spoilage",
 			"b": "Calcium oxide",
-			"c": "Ozone",
+			"c": "Thermolysis",
 			"d": "Tarnishing"
 		},
 		"answer": "b"
@@ -181,6 +181,6 @@
 			"c": "Ozone",
 			"d": "Tarnishing"
 		},
-		"answer": "b"
+		"answer": "a"
 	}]
 }

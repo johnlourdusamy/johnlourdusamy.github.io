@@ -5,223 +5,136 @@
  "quests": [
 	{
 		"id": 1,
-		"question": "QUESTION",
+		"question": "The Governor of a state is appointed by",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "President",
+			"b": "Vice President",
+			"c": "Prime Minister",
+			"d": "Chief Minister"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 2,
-		"question": "QUESTION",
+		"question": "The State Council Minsters is headed by",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "The Governor",
+			"b": "Chief Minister",
+			"c": "Speaker",
+			"d": "Home Minister"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 3,
-		"question": "QUESTION",
+		"question": "Who can summon and prorogue the sessions of the State legislature?",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Home Minister",
+			"b": "President",
+			"c": "Speaker",
+			"d": "The Governor"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 4,
-		"question": "QUESTION",
+		"question": "Who does not participate in the appointment of the High Court Judge?",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Governor",
+			"b": "Chief Minister",
+			"c": "Chief Justice of the High Court",
+			"d": "President of India"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 5,
-		"question": "QUESTION",
+		"question": "The age of retirement of the Judges of the High Court is",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "62",
+			"b": "64",
+			"c": "65",
+			"d": "58"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 6,
-		"question": "QUESTION",
+		"question": "Governor",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Lower House62",
+			"b": "Nominal Head",
+			"c": "Upper House",
+			"d": "Real Head"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 7,
-		"question": "QUESTION",
+		"question": "Chief Minister",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Lower House62",
+			"b": "Nominal Head",
+			"c": "Upper House",
+			"d": "Real Head"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 8,
-		"question": "QUESTION",
+		"question": "Legislative Assembly",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Lower House62",
+			"b": "Nominal Head",
+			"c": "Upper House",
+			"d": "Real Head"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 9,
-		"question": "QUESTION",
+		"question": "Legislative Council",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Lower House62",
+			"b": "Nominal Head",
+			"c": "Upper House",
+			"d": "Real Head"	
 		},
-		"answer": "ANS"
+		"answer": "c"
 	},
 	{
 		"id": 10,
-		"question": "QUESTION",
+		"question": "Chief Minister is the chief administrator of the State.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 11,
-		"question": "QUESTION",
+		"question": "The Governor nominates two members of the Anglo- Indian Community to Legislative Assembly.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 12,
-		"question": "QUESTION",
+		"question": "The number of judges in the High Courts is not uniform and fixed.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
-	},
-	{
-		"id": 13,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 14,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 15,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 16,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 17,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 18,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 19,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-{
-		"id": 20,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
+		"answer": "a"
+	}
 	}
   ]
 }

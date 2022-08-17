@@ -1,0 +1,466 @@
+{
+	"subject": "maths",
+	"lesson": "l06",
+	"grade": "c4",
+	"quests": [{
+		"id": 1,
+		"question": "Electric current is a ______quantity",
+		"options": {
+			"a": "derived",
+			"b": "base",
+			"c": "supplementary",
+			"d": "professional"
+		},
+		"answer": "b"
+	}, {
+		"id": 2,
+		"question": "SI unit of temperature is ______",
+		"options": {
+			"a": "celsius",
+			"b": "ampere",
+			"c": "fahrenheit",
+			"d": "kelvin"
+		},
+		"answer": "d"
+	}, {
+		"id": 3,
+		"question": "Luminous intensity is the intensity of ______",
+		"options": {
+			"a": "IR light",
+			"b": "UV light",
+			"c": "laser light",
+			"d": "visible light"
+		},
+		"answer": "d"
+	}, {
+		"id": 4,
+		"question": "Closeness of two or more measured values is called as ______",
+		"options": {
+			"a": "accuracy",
+			"b": "error",
+			"c": "precision",
+			"d": "approximation"
+		},
+		"answer": "c"
+	}, {
+		"id": 5,
+		"question": "Which one of the following statement is wrong?",
+		"options": {
+			"a": "Approximation simplifies the calculation.",
+			"b": "Approximation gives the nearest value only.",
+			"c": "Approximation is very useful when little information is available.",
+			"d": "Approximation gives accurate value."
+		},
+		"answer": "d"
+	}, {
+		"id": 6,
+		"question": "Which one the following systems of unit is the British System of unit?",
+		"options": {
+			"a": "CGS",
+			"b": "FPS",
+			"c": "MKS",
+			"d": "SI"
+		},
+		"answer": "b"
+	}, {
+		"id": 7,
+		"question": "Temperature is a measure of total kinetic energy of the particles in a system.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "b"
+	}, {
+		"id": 8,
+		"question": "If one coulomb of charge is flowing in one minute, it is called ‘ampere’.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "b"
+	}, {
+		"id": 9,
+		"question": "Amount of substance gives the number of particles present in a substance.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "a"
+	}, {
+		"id": 10,
+		"question": "Intensity of light coming from a candle is approximately equal to one ‘candela’.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "a"
+	}, {
+		"id": 11,
+		"question": "Quartz clocks are used in GPS devices.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "b"
+	}, {
+		"id": 12,
+		"question": "Angle formed at the top of a cone is an example for ‘plane angle’.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "b"
+	}, {
+		"id": 13,
+		"question": "The number 4.582 can be rounded off as 4.58.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "a"
+	}, {
+		"id": 14,
+		"question": "Measure of hotness or coldness",
+		"options": {
+			"a": "Precision",
+			"b": "Accuracy",
+			"c": "Temperature",
+			"d": "Plane angle"
+		},
+		"answer": "c"
+	}, {
+		"id": 15,
+		"question": "Angle formed by the intersection of two planes",
+		"options": {
+			"a": "Solid angle",
+			"b": "Accuracy",
+			"c": "Temperature",
+			"d": "Plane angle"
+		},
+		"answer": "d"
+	}, {
+		"id": 16,
+		"question": "Angle formed by the intersection of three or more planes",
+		"options": {
+			"a": "Solid angle",
+			"b": "Accuracy",
+			"c": "Temperature",
+			"d": "Plane angle"
+		},
+		"answer": "a"
+	}, {
+		"id": 17,
+		"question": "Closeness to the actual value",
+		"options": {
+			"a": "Solid angle",
+			"b": "Accuracy",
+			"c": "Temperature",
+			"d": "Plane angle"
+		},
+		"answer": "b"
+	}, {
+		"id": 18,
+		"question": "Closeness to two or more measurements",
+		"options": {
+			"a": "Solid angle",
+			"b": "Accuracy",
+			"c": "Precision",
+			"d": "Plane angle"
+		},
+		"answer": "c"
+	}, {
+		"id": 19,
+		"question": "The SI unit of length is the ",
+		"options": {
+			"a": "millimetre",
+			"b": "centimetre",
+			"c": "metre",
+			"d": "kilometre"
+		},
+		"answer": "c"
+	}, {
+		"id": 20,
+		"question": "The magnitude of a physical quantity consists of ",
+		"options": {
+			"a": "a unit",
+			"b": "a number and unit",
+			"c": "a number",
+			"d": "a unit and its symbol"
+		},
+		"answer": "b"
+	}, {
+		"id": 21,
+		"question": "The SI unit of mass is ",
+		"options": {
+			"a": "milligram",
+			"b": "gram",
+			"c": "quintal",
+			"d": "kilogram"
+		},
+		"answer": "d"
+	}, {
+		"id": 22,
+		"question": "Among the following, which is not a metric system ",
+		"options": {
+			"a": "CGS",
+			"b": "MKS",
+			"c": "FPS",
+			"d": "SI"
+		},
+		"answer": "c"
+	}, {
+		"id": 23,
+		"question": "____ is a physical quantity that expresses the degree of hotness or coldness of a substance. ",
+		"options": {
+			"a": "Electric current",
+			"b": "Luminous intensity",
+			"c": "Temperature",
+			"d": "none of the above"
+		},
+		"answer": "c"
+	}, {
+		"id": 24,
+		"question": "Luminous intensity is measured by a _____ which gives the luminous intensity in terms of candela. ",
+		"options": {
+			"a": "ammeter",
+			"b": "photometer",
+			"c": "voltmeter",
+			"d": "analog clock"
+		},
+		"answer": "b"
+	}, {
+		"id": 25,
+		"question": "Scientists modified the clock's mechanism to obtain ______. ",
+		"options": {
+			"a": "estimation",
+			"b": "approximation",
+			"c": "accuracy",
+			"d": "none of the above"
+		},
+		"answer": "c"
+	}, {
+		"id": 26,
+		"question": "Atomic clocks have an accuracy of one second in every _____ seconds. ",
+		"options": {
+			"a": "10<sup>9</sup>",
+			"b": "10<sup>3</sup>",
+			"c": "10<sup>10</sup>",
+			"d": "10<sup>23</sup>"
+		},
+		"answer": "c"
+	}, {
+		"id": 27,
+		"question": "Time difference between two adjacent time zones is ______. ",
+		"options": {
+			"a": "2 hours",
+			"b": "5:30 hours",
+			"c": "1 hour",
+			"d": "24 hours"
+		},
+		"answer": "c"
+	}, {
+		"id": 28,
+		"question": "GMT is measured at the longitude of ____ degree. ",
+		"options": {
+			"a": "20",
+			"b": "0",
+			"c": "10",
+			"d": "5"
+		},
+		"answer": "b"
+	}, {
+		"id": 29,
+		"question": "The unit of length in FPS system is foot. ",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "a"
+	}, {
+		"id": 30,
+		"question": "The unit of mass in CGS system is gram. ",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "b"
+	}, {
+		"id": 31,
+		"question": "Heat is physical quantity that expresses the degree of hotness or coldness of a substance. ",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "b"
+	}, {
+		"id": 32,
+		"question": "Heat energy removed from a substance will lower its temperature. ",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "a"
+	}, {
+		"id": 33,
+		"question": "Voltmeter is a device used to measure electric current. ",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": " ",
+			"d": " "
+		},
+		"answer": "b"
+	}, {
+		"id": 34,
+		"question": "pi radian ",
+		"options": {
+			"a": "Mars climate orbiter",
+			"b": "mol",
+			"c": "7",
+			"d": "180 degree"
+		},
+		"answer": "d"
+	}, {
+		"id": 35,
+		"question": "Base quantities ",
+		"options": {
+			"a": "Mars climate orbiter",
+			"b": "mol",
+			"c": "7",
+			"d": "180 degree"
+		},
+		"answer": "c"
+	}, {
+		"id": 36,
+		"question": "Amount of substance ",
+		"options": {
+			"a": "Mars climate orbiter",
+			"b": "mol",
+			"c": "7",
+			"d": "180 degree"
+		},
+		"answer": "b"
+	}, {
+		"id": 37,
+		"question": "Martian climate ",
+		"options": {
+			"a": "Mars climate orbiter",
+			"b": "mol",
+			"c": "7",
+			"d": "180 degree"
+		},
+		"answer": "a"
+	}, {
+		"id": 38,
+		"question": "Q/t ",
+		"options": {
+			"a": "Plane angle",
+			"b": "Royal observatory",
+			"c": "Solid angle",
+			"d": "I"
+		},
+		"answer": "d"
+	}, {
+		"id": 39,
+		"question": "GMT ",
+		"options": {
+			"a": "Plane angle",
+			"b": "Royal observatory",
+			"c": "Solid angle",
+			"d": "I"
+		},
+		"answer": "b"
+	}, {
+		"id": 40,
+		"question": "Two dimensional ",
+		"options": {
+			"a": "Plane angle",
+			"b": "Royal observatory",
+			"c": "Solid angle",
+			"d": "I"
+		},
+		"answer": "a"
+	}, {
+		"id": 41,
+		"question": "Three dimensional ",
+		"options": {
+			"a": "Plane angle",
+			"b": "Royal observatory",
+			"c": "Solid angle",
+			"d": "I"
+		},
+		"answer": "c"
+	}, {
+		"id": 42,
+		"question": "Heat energy given to a substance will ____ its temperature. ",
+		"options": {
+			"a": "increase",
+			"b": "decrease",
+			"c": "remains same",
+			"d": "none"
+		},
+		"answer": "c"
+	}, {
+		"id": 43,
+		"question": "Quartz clock ",
+		"options": {
+			"a": "periodic vibrations",
+			"b": "ampere",
+			"c": "coulomb",
+			"d": "10<sup>9</sup> seconds"
+		},
+		"answer": "d"
+	}, {
+		"id": 44,
+		"question": "Atomic clock ",
+		"options": {
+			"a": "periodic vibrations",
+			"b": "ampere",
+			"c": "coulomb",
+			"d": "10<sup>9</sup> seconds"
+		},
+		"answer": "a"
+	}, {
+		"id": 45,
+		"question": "Electric current ",
+		"options": {
+			"a": "periodic vibrations",
+			"b": "ampere",
+			"c": "coulomb",
+			"d": "10<sup>9</sup> seconds"
+		},
+		"answer": "b"
+	}, {
+		"id": 46,
+		"question": "Charge ",
+		"options": {
+			"a": "periodic vibrations",
+			"b": "ampere",
+			"c": "coulomb",
+			"d": "10<sup>9</sup> seconds"
+		},
+		"answer": "c"
+	}]
+}

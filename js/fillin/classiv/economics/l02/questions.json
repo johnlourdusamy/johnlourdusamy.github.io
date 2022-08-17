@@ -4,10 +4,10 @@
  "grade": "c4",
  "quests": [
 {
- "textItems":["1. QUESTION ", " <br/>2. QUESTION ", ".<br/>3. QUESTION ", "<br/>4. QUESTION ", "."],
+ "textItems":["1. The ----- and ====== are allotted their respective roles in promoting the economic welfare of all sections of the community. ", " <br/>2. The private sector is on ------ motive. ", ".<br/>3.======= is the process of social and economic development in a society.", ".<br/>4.The main function of private sector is to create and -------.",".<br/>5. The government is committed to strengthening ======= and co-operation among the citizens. ", "."],
  "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
- "anItemsCorrect": [1,5,7,9],
- "anLabels": ["ANS 1", "ANS 2", "ANS 3", "ANS 4", "ANS 5", "ANS 6", "ANS 7", "ANS 8", "ANS 9", "ANS 10"],
+ "anItemsCorrect": [5,6,8,2,0],
+ "anLabels": ["understanding", "Employment", "Innovation and Moderisation", "life", "Goverment", "Public sector Private sector", "profit", "Industries", "Socio Economic Development", "Money"],
  "blockSize": 25,
  "elementAnId": "fillblank-ph",
  "elementTextId": "fillblank-text", 

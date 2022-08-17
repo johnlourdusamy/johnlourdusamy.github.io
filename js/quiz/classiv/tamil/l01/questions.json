@@ -1,0 +1,157 @@
+{
+	"subject": "tamil",
+	"lesson": "l01",
+	"grade": "c4",
+	"quests": [{
+		"id": 1,
+		"question": "Who laid the foundation of Portuguese power in India?",
+		"options": {
+			"a": "Vasco da Gama",
+			"b": "Vasco da Gama",
+			"c": "Alfonso de Albuquerque",
+			"d": "Almeida"
+		},
+		"answer": "c"
+	}, {
+		"id": 2,
+		"question": "Which of the following European Nation was the foremost attempt to discover a sea route to India?",
+		"options": {
+			"a": "Dutch",
+			"b": "France",
+			"c": "Britain",
+			"d": "Portugal"
+		},
+		"answer": "b"
+	}, {
+		"id": 3,
+		"question": "In 1453 Constantinople was captured by ____________.",
+		"options": {
+			"a": "The French",
+			"b": "The Turks",
+			"c": "The Dutch",
+			"d": "The British"
+		},
+		"answer": "b"
+	}, {
+		"id": 4,
+		"question": "Sir William Hawkins belonged to ____________.",
+		"options": {
+			"a": "Portugal",
+			"b": "Spain",
+			"c": "England",
+			"d": "France"
+		},
+		"answer": "c"
+	}, {
+		"id": 5,
+		"question": "The first fort constructed by the British in India was ____________.",
+		"options": {
+			"a": "Fort William",
+			"b": "Fort St.George",
+			"c": "Agra Fort",
+			"d": "Fort St. David"
+		},
+		"answer": "b"
+	}, {
+		"id": 6,
+		"question": "Who among the following Europeans were the last to come India as traders?",
+		"options": {
+			"a": "The British",
+			"b": "The French",
+			"c": "The Danish",
+			"d": "The Portuguese"
+		},
+		"answer": "b"
+	}, {
+		"id": 7,
+		"question": "Tranquebar on the Tamilnadu coast was a trade centre of the ____________.",
+		"options": {
+			"a": "The Portuguese",
+			"b": "The British",
+			"c": "The French",
+			"d": "The Danish"
+		},
+		"answer": "d"
+	}, {
+		"id": 8,
+		"question": "Auto biography is one of the written sources.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "a"
+	}, {
+		"id": 9,
+		"question": "Coins are one of the material sources.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "a"
+	}, {
+		"id": 10,
+		"question": "Ananda Rangam was a translator served under British.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "b"
+	}, {
+		"id": 11,
+		"question": "The place where historical documents are preserved is called archives.",
+		"options": {
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
+		},
+		"answer": "a"
+	}, {
+		"id": 12,
+		"question": "The Dutch",
+		"options": {
+			"a": "1664",
+			"b": "1602",
+			"c": "1600",
+			"d": "1616"
+		},
+		"answer": "b"
+	}, {
+		"id": 13,
+		"question": "The British",
+		"options": {
+			"a": "1664",
+			"b": "1602",
+			"c": "1600",
+			"d": "1616"
+		},
+		"answer": "c"
+	}, {
+		"id": 14,
+		"question": "The Danish",
+		"options": {
+			"a": "1664",
+			"b": "1602",
+			"c": "1600",
+			"d": "1616"
+		},
+		"answer": "d"
+	}, {
+		"id": 15,
+		"question": "The French",
+		"options": {
+			"a": "1664",
+			"b": "1602",
+			"c": "1600",
+			"d": "1616"
+		},
+		"answer": "a"
+	}
+]
+}

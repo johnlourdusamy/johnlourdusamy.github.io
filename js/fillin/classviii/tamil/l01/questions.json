@@ -1,0 +1,23 @@
+{
+ "subject": "tamil",
+ "lesson": "l01",
+ "grade": "c8",
+ "quests": [
+{
+ "textItems":["1. கடைச்சங்க காலத்தில் எழுதப்பட்ட தமிழ் எழுத்துகள் _____ என அழைக்கப்பட்டன. ", " <br/>2. எழுத்துகளில் புள்ளிகளால் ஏற்படும் குழப்பங்களைக் களைந்தவர் ______. ",  "."],
+ "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+ "anItemsCorrect": [3,4],
+ "anLabels": ["ஓவிய எழுத்து", "சித்திர எழுத்து", "வட்டெழுத்து", "கண்ணெழுத்துக்கள்", "வீரமாமுனிவர்", "தந்தை பெரியார்", "பாரதிதாசன்", "பெருஞ்சித்திரனார்", "கோட்டெழுத்து", "வ. உ. சிதம்பரனார்"],
+ "blockSize": 25,
+ "elementAnId": "fillblank-ph",
+ "elementTextId": "fillblank-text", 
+ "answerId":"d-answer",
+ "phId": "d-nest", 
+ "checkId":"d-check", 
+ "numberId":"d-number", 
+ "onFinishCall":"",
+ "allowTouchDrag":true
+}
+]
+
+}

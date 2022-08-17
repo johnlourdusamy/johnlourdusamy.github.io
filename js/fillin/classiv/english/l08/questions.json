@@ -1,0 +1,23 @@
+{
+ "subject": "english",
+ "lesson": "l08",
+ "grade": "c4",
+ "quests": [
+{
+ "textItems":["1. QUESTION ", " <br/>2. QUESTION ", ".<br/>3. QUESTION ", "<br/>4. QUESTION ", "."],
+ "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+ "anItemsCorrect": [1,5,7,9],
+ "anLabels": ["ANS 1", "ANS 2", "ANS 3", "ANS 4", "ANS 5", "ANS 6", "ANS 7", "ANS 8", "ANS 9", "ANS 10"],
+ "blockSize": 25,
+ "elementAnId": "fillblank-ph",
+ "elementTextId": "fillblank-text", 
+ "answerId":"d-answer",
+ "phId": "d-nest", 
+ "checkId":"d-check", 
+ "numberId":"d-number", 
+ "onFinishCall":"",
+ "allowTouchDrag":true
+}
+]
+
+}

@@ -5,223 +5,223 @@
  "quests": [
 	{
 		"id": 1,
-		"question": "QUESTION",
+		"question": "Which of the following is known as sphere of rocks.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Atmosphere",
+			"b": "Biosphere",
+			"c": "Lithosphere",
+			"d": "Hydrosphere"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	},
 	{
 		"id": 2,
-		"question": "QUESTION",
+		"question": "World soil day is observed on",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "15th August",
+			"b": "12th January",
+			"c": "15th October",
+			"d": "5th December"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 3,
-		"question": "QUESTION",
+		"question": "Fossils are found in",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Sedimentary rocks",
+			"b": "Igneous rocks",
+			"c": "Metamorphic rocks",
+			"d": "Plutonic rocks"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 4,
-		"question": "QUESTION",
+		"question": "The top layer of soil is called as",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "organic layer or humas",
+			"b": "topsoil",
+			"c": "subsoil",
+			"d": "bedrock"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 5,
-		"question": "QUESTION",
+		"question": "Ideal soil for growing cotton is",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Red soil",
+			"b": "Black soil",
+			"c": "Alluvial soil",
+			"d": "Mountain soil"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 6,
-		"question": "QUESTION",
+		"question": "The major components of soil is.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Rocks",
+			"b": "Minerals",
+			"c": "Water",
+			"d": "All the above"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 7,
-		"question": "QUESTION",
+		"question": "Which one of the following is the most widespread most and productive category of soil?",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Alluvial soil",
+			"b": "Black soil",
+			"c": "Red soil",
+			"d": "Mountain soil"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 8,
-		"question": "QUESTION",
+		"question": "Basalt",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Anthracite",
+			"b": "Extrusive igneous",
+			"c": "Metamorphic rock",
+			"d": "Sedimentary rock"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 9,
-		"question": "QUESTION",
+		"question": "Limestone",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Anthracite",
+			"b": "Extrusive igneous",
+			"c": "Metamorphic rock",
+			"d": "Sedimentary rock"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 10,
-		"question": "QUESTION",
+		"question": "Coal",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Anthracite",
+			"b": "Extrusive igneous",
+			"c": "Metamorphic rock",
+			"d": "Sedimentary rock"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 11,
-		"question": "QUESTION",
+		"question": "Gneiss",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Anthracite",
+			"b": "Extrusive igneous",
+			"c": "Metamorphic rock",
+			"d": "Sedimentary rock"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	},
 	{
 		"id": 12,
-		"question": "QUESTION",
+		"question": "Igneous rocks are called primary rocks.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 13,
-		"question": "QUESTION",
+		"question": "Slate is formed from shale.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 14,
-		"question": "QUESTION",
+		"question": "Red soil is formed by the process of leaching..",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 15,
-		"question": "QUESTION",
+		"question": "M-sand is used as alternative for natural sand in construction.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 16,
-		"question": "QUESTION",
+		"question": "Volcanic mountains are covered with sedimentary rocks.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 17,
-		"question": "QUESTION",
+		"question": "Granite",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Bed rock",
+			"b": "Plutonic rock",
+			"c": "Strip farming",
+			"d": "Active Volcano"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 18,
-		"question": "QUESTION",
+		"question": "Soil layer",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Bed rock",
+			"b": "Plutonic rock",
+			"c": "Strip farming",
+			"d": "Active Volcano"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 19,
-		"question": "QUESTION",
+		"question": "Barren island",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Bed rock",
+			"b": "Plutonic rock",
+			"c": "Strip farming",
+			"d": "Active Volcano"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
-{
+	{
 		"id": 20,
-		"question": "QUESTION",
+		"question": "Soil conservation",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Bed rock",
+			"b": "Plutonic rock",
+			"c": "Strip farming",
+			"d": "Active Volcano"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	}
   ]
 }

@@ -1,0 +1,24 @@
+{
+ "subject": "tamil",
+ "lesson": "l02",
+ "grade": "c8",
+ "quests": [
+{
+ "textItems":["1. வலியில் நிலைமையான் வல்லுருவம் ______ ", " <br/>2. புலியின்தோல் ______மேய்ந் தற்று. ", ".<br/>3. விலங் கொடு _____ அனையர் ______  க
+ற்றாரோடு ஏனையவர்.", "."],
+ "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+ "anItemsCorrect": [0,2,4,7],
+ "anLabels": ["பெற்றம்", "உற்றம்", "போர்த்து", "காத்து", "மக்கள்", "பாக்கள்", "விலங்குகள்", "இலங்குநூல் ", "தக்கார்", "தகவிர்"],
+ "blockSize": 25,
+ "elementAnId": "fillblank-ph",
+ "elementTextId": "fillblank-text", 
+ "answerId":"d-answer",
+ "phId": "d-nest", 
+ "checkId":"d-check", 
+ "numberId":"d-number", 
+ "onFinishCall":"",
+ "allowTouchDrag":true
+}
+]
+
+}

@@ -4,10 +4,10 @@
  "grade": "c4",
  "quests": [
 {
- "textItems":["1. QUESTION ", " <br/>2. QUESTION ", ".<br/>3. QUESTION ", "<br/>4. QUESTION ", "."],
+ "textItems":["1. National Archives of India (NAI) is located in ____________. ", " <br/>2. Bartholomew Diaz, a Portuguese sailor was patronized by ____________. ", ".<br/>3.The printing press in India was set up by ____________ at Goa in 1556. ", "<br/>4.The Mughal Emperor ____________ permitted the English to trade in India. ","<br/>5.The French East India Company was formed by ____________. ","<br/>6. ____________ the King of Denmark issued a charter to create Danish East India company.", "."],
  "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
- "anItemsCorrect": [1,5,7,9],
- "anLabels": ["ANS 1", "ANS 2", "ANS 3", "ANS 4", "ANS 5", "ANS 6", "ANS 7", "ANS 8", "ANS 9", "ANS 10"],
+ "anItemsCorrect": [0,4,2,1,5,3],
+ "anLabels": ["New Delhi", "Jahangir", "Portugese", "Christian IV", "King John II", "Colbert", "Tamilnadu", "European", "India", "Emperor"],
  "blockSize": 25,
  "elementAnId": "fillblank-ph",
  "elementTextId": "fillblank-text", 

@@ -5,223 +5,124 @@
  "quests": [
 	{
 		"id": 1,
-		"question": "QUESTION",
+		"question": "Which metals were used for metallic money?",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "gold",
+			"b": "silver",
+			"c": "bronze",
+			"d": "all the above"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 2,
-		"question": "QUESTION",
+		"question": "Who designed the symbol (`) of Indian 	rupee?",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Udayakumar",
+			"b": "Amartya Sen",
+			"c": "Abijith Banerjee",
+			"d": "None of these"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 3,
-		"question": "QUESTION",
+		"question": "The value of money is",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Internal value of money",
+			"b": "External value of money",
+			"c": "Both a & b",
+			"d": "None of these"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	},
 	{
 		"id": 4,
-		"question": "QUESTION",
+		"question": "Which is the Bank Money?",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Cheque",
+			"b": "Draft",
+			"c": "Credit and Debit cards",
+			"d": "All the above"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 5,
-		"question": "QUESTION",
+		"question": "Pick out the incorrect one: Investment can be made in different 	vehicle.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Stock	",
+			"b": "Bonds",
+			"c": "Mutual fund",
+			"d": "Pay tax"	
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 6,
-		"question": "QUESTION",
+		"question": "Among the following who are responsible for Black Money?",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Tax evaders",
+			"b": "Hoaders",
+			"c": "Smugglers",
+			"d": "All of the above"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 7,
-		"question": "QUESTION",
+		"question": "Barter system",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "tax evaders",
+			"b": "Electronic Money",
+			"c": "Consumer’s disposable income",
+			"d": "exchanged goods for goods"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 8,
-		"question": "QUESTION",
+		"question": "Reserve Bank act",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "tax evaders",
+			"b": "1935",
+			"c": "Consumer’s disposable income",
+			"d": "exchanged goods for goods"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 9,
-		"question": "QUESTION",
+		"question": "E- Money",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "tax evaders",
+			"b": "Electronic Money",
+			"c": "Consumer’s disposable income",
+			"d": "exchanged goods for goods"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 10,
-		"question": "QUESTION",
+		"question": "Savings",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "tax evaders",
+			"b": "Electronic Money",
+			"c": "Consumer’s disposable income",
+			"d": "exchanged goods for goods"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	},
 	{
 		"id": 11,
-		"question": "QUESTION",
+		"question": "Black money",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "tax evaders",
+			"b": "Electronic Money",
+			"c": "Consumer’s disposable income",
+			"d": "exchanged goods for goods"
 		},
-		"answer": "ANS"
-	},
-	{
-		"id": 12,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 13,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 14,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 15,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 16,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 17,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 18,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 19,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-{
-		"id": 20,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	}
+		"answer": "a"
+	}	}
   ]
 }

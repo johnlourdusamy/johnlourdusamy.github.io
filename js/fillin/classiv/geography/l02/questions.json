@@ -4,10 +4,10 @@
  "grade": "c4",
  "quests": [
 {
- "textItems":["1. QUESTION ", " <br/>2. QUESTION ", ".<br/>3. QUESTION ", "<br/>4. QUESTION ", "."],
+ "textItems":["1. _____________ refers to the condition of atmosphere for a short period of time. ", " <br/>2.The scientific study of weather is called ____.", ".<br/>3.The highest temperature ever recorded on the earth is ______________. ", "<br/>4. QUESTION ","<br/>4. _____________ is a ratio between the actual amount of water vapour and the maximum amount of water vapour the air can hold. ","<br/>5. ____________ and_____________ are measured by anemometer and wind vane respectively.","<br/>6._________ are imaginary lines which connect the same temperatures of different places. ", "."],
  "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
- "anItemsCorrect": [1,5,7,9],
- "anLabels": ["ANS 1", "ANS 2", "ANS 3", "ANS 4", "ANS 5", "ANS 6", "ANS 7", "ANS 8", "ANS 9", "ANS 10"],
+ "anItemsCorrect": [2,3,0,5,4,1],
+ "anLabels": ["56.7 degree celsius", "Isotherms", "Weather", "Meterology", "Wind speed, Wind direction", "Relative humidity", "Current", "Waves", "Earth", "Climate"],
  "blockSize": 25,
  "elementAnId": "fillblank-ph",
  "elementTextId": "fillblank-text", 

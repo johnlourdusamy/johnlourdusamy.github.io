@@ -16,14 +16,14 @@
 		},
 		{
 		"id": 2,
-		"question": "The pictorial symbol for water given bythe alchemists was",
+		"question": "The pictorial symbol for water given by the alchemists was",
 		"options": {
-			"a": "Solid angle",
-			"b": "Accuracy",
-			"c": "Temperature",
-			"d": "Plane angle"
+			"a": "triangle",
+			"b": "downside triangle with bar",
+			"c": "downside triangle",
+			"d": "triangle with bar"
 	},
-			"answer": "b"
+			"answer": "c"
 	},
 		{
 		"id": 3,
@@ -166,16 +166,16 @@
 			"c": "Compound ",
 			"d": "Molecule "
 	},
-		"answer": "b"
+		"answer": "c"
 	},
 		{
 		"id": 16,
 		"question": "Atoms of the same kind ",
 		"options": {
-			"a": "True",
-			"b": "False",
-			"c": " ",
-			"d": " "
+			"a": "Atom",
+			"b": "Element",
+			"c": "Compound",
+			"d": "Molecule"
 	},
 		"answer": "b"
 	},

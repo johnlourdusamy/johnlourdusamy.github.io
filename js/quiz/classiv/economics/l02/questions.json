@@ -5,223 +5,92 @@
  "quests": [
 	{
 		"id": 1,
-		"question": "QUESTION",
+		"question": "The public sector in India owes its origin in the Industrial policy resolution of the Government of India.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "1957",
+			"b": "1958",
+			"c": "1966",
+			"d": "1956"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 2,
-		"question": "QUESTION",
+		"question": "Mixed economy is the mixture of merits of both.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Capitalism",
+			"b": "Socialism",
+			"c": "a & b are correct",
+			"d": "a & b are incorrect"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	},
 	{
 		"id": 3,
-		"question": "QUESTION",
+		"question": "is governed by a company law and controlled by the Government as principal major share holders.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Private Sector",
+			"b": "Joint Sector",
+			"c": "Public Sector",
+			"d": "None of these"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 4,
-		"question": "QUESTION",
+		"question": "Public sector is on motive.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Profit Motive",
+			"b": "Service Motive",
+			"c": "Speculative Motive",
+			"d": "None of these"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 5,
-		"question": "QUESTION",
+		"question": "Think Tank",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Primary Sector",
+			"b": "Gross Domestic Product",
+			"c": "NITI Aayog",
+			"d": "Secondary Sector"
 		},
-		"answer": "ANS"
+		"answer": "c"
 	},
 	{
 		"id": 6,
-		"question": "QUESTION",
+		"question": "Agriculture",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Primary Sector",
+			"b": "Gross Domestic Product",
+			"c": "NITI Aayog",
+			"d": "Secondary Sector"
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 7,
-		"question": "QUESTION",
+		"question": "Industries",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Primary Sector",
+			"b": "Gross Domestic Product",
+			"c": "NITI Aayog",
+			"d": "Secondary Sector"
 		},
-		"answer": "ANS"
+		"answer": "d"
 	},
 	{
 		"id": 8,
-		"question": "QUESTION",
+		"question": "GDP",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Primary Sector",
+			"b": "Gross Domestic Product",
+			"c": "NITI Aayog",
+			"d": "Secondary Sector"
 		},
-		"answer": "ANS"
-	},
-	{
-		"id": 9,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 10,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 11,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 12,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 13,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 14,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 15,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 16,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 17,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 18,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 19,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-{
-		"id": 20,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
+		"answer": "b"
+	}
 	}
   ]
 }

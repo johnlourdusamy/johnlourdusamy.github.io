@@ -1,0 +1,23 @@
+{
+ "subject": "moral",
+ "lesson": "l02",
+ "grade": "c4",
+ "quests": [
+{
+ "textItems":["1. The Treaty of Alinagar was signed in ===== ", " <br/>2. The commander in Chief of Sirajuddaulah was =====. ", ".<br/>3. The main cause for the Second Carnatic war was ==== . ", "<br/>4. ===== adopted the policy of Doctrine of Lapse to extend the British Empire in India. ","<br/>5. Tipu Sultan was finally defeated at the hands of =====. ","<br/>6. After the death of Tipu Sultan Mysore was handed over to ===== .","<br/>7. ===== In 1800, established a college at Fort William in Calcutta. ", "."],
+ "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+ "anItemsCorrect": [4,2,5,6,0,3,1],
+ "anLabels": ["Arthur Wellesely", "Lord Wellesely", "Mir Jafar", "Krishna raja odayar", "1757", "The issue of succession", "Lord Dalhousie", "Carnetic", "1719", "Governor"],
+ "blockSize": 25,
+ "elementAnId": "fillblank-ph",
+ "elementTextId": "fillblank-text", 
+ "answerId":"d-answer",
+ "phId": "d-nest", 
+ "checkId":"d-check", 
+ "numberId":"d-number", 
+ "onFinishCall":"",
+ "allowTouchDrag":true
+}
+]
+
+}

@@ -5,223 +5,81 @@
  "quests": [
 	{
 		"id": 1,
-		"question": "QUESTION",
+		"question": "Which of the following is not a condition for becoming the citizen of India?",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Birth",
+			"b": "acquiring property",
+			"c": "descent",
+			"d": "naturalization	"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 2,
-		"question": "QUESTION",
+		"question": "_____________of the Constitution of India deals with the Citizenship.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Part II",
+			"b": "Part II Article 5-11",
+			"c": "Part II Article 5-6",
+			"d": "Part I Article 5-11"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 3,
-		"question": "QUESTION",
+		"question": "Who is called the first citizen of India?",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "The Prime Minister",
+			"b": "The President",
+			"c": "The Chief Minister",
+			"d": "The Chief Justice of India"
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 4,
-		"question": "QUESTION",
+		"question": "USA has single citizenship.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 5,
-		"question": "QUESTION",
+		"question": "OCI card holder has voting rights in India.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "b"
 	},
 	{
 		"id": 6,
-		"question": "QUESTION",
+		"question": "Citizen of India can enjoy Fundamental Rights guaranteed by our constitution.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
+		"answer": "a"
 	},
 	{
 		"id": 7,
-		"question": "QUESTION",
+		"question": "Nationality can be change and citizenship can not be changed.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
-		"answer": "ANS"
-	},
-	{
-		"id": 8,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 9,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 10,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 11,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 12,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 13,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 14,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 15,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 16,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 17,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 18,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 19,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-{
-		"id": 20,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
+		"answer": "b"
+	}
 	}
   ]
 }

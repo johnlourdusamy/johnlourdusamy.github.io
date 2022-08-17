@@ -4,10 +4,10 @@
  "grade": "c4",
  "quests": [
 {
- "textItems":["1. QUESTION ", " <br/>2. QUESTION ", ".<br/>3. QUESTION ", "<br/>4. QUESTION ", "."],
+ "textItems":["1. Online Banking is also known as ______. ", " <br/>2._____ is what money does. ", ".<br/>3. Electronic banking is also known as ______. ", "<br/>4.Credit cards and Debit cards are ______ Money. ", br/>4.In the ______ year Reserve Bank of India was established.","."],
  "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
- "anItemsCorrect": [1,5,7,9],
- "anLabels": ["ANS 1", "ANS 2", "ANS 3", "ANS 4", "ANS 5", "ANS 6", "ANS 7", "ANS 8", "ANS 9", "ANS 10"],
+ "anItemsCorrect": [9,5,6,7,3],
+ "anLabels": ["word", "Print", "Credit", "1935", "Debit", "Money", "National Eloctronic Funds transfer", "Plastic", "goods", "Net-Banking"],
  "blockSize": 25,
  "elementAnId": "fillblank-ph",
  "elementTextId": "fillblank-text", 

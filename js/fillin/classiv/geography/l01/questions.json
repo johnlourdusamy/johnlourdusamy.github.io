@@ -4,10 +4,10 @@
  "grade": "c4",
  "quests": [
 {
- "textItems":["1. QUESTION ", " <br/>2. QUESTION ", ".<br/>3. QUESTION ", "<br/>4. QUESTION ", "."],
+ "textItems":["1. Scientific study of rocks is called ===== . ", " <br/>2.====== soil is highly suitable for millets cultivation. ", ".<br/>3. The “skin of earth” is =====. ", "<br/>4.is the kind of metamorphic rock using which Taj Mahal was built =====. ", "<br/>5.===== is known as the primary rocks. ", "."],
  "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
- "anItemsCorrect": [1,5,7,9],
- "anLabels": ["ANS 1", "ANS 2", "ANS 3", "ANS 4", "ANS 5", "ANS 6", "ANS 7", "ANS 8", "ANS 9", "ANS 10"],
+ "anItemsCorrect": [2,4,1,0,3],
+ "anLabels": ["White Marble", "Soil", "Petrology", "Igneous rock", "red", "blue", "m-sand", "Volcanic", "primary rock", "leaching"],
  "blockSize": 25,
  "elementAnId": "fillblank-ph",
  "elementTextId": "fillblank-text", 

@@ -62,8 +62,8 @@
 		"id": 6,
 		"question": "Disease causing microorganisms arecalled pathogens.",
 		"options": {
-			"a": "true
-			"b": "false",",
+			"a": "true",
+			"b": "false",
 			"c": "",
 			"d": ""
 		},
@@ -72,11 +72,10 @@
 	,
 	{
 		"id": 7,
-		"question": "Female anopheles mosquito is a carrier of
-dengue virus.",
+		"question": "Female anopheles mosquito is a carrier of dengue virus.",
 		"options": {
-			"a": "true
-			"b": "false",",
+			"a": "true",
+			"b": "false",
 			"c": "",
 			"d": ""
 		},
@@ -86,8 +85,8 @@ dengue virus.",
 		"id":8,
 		"question": "Chicken pox is a communicable disease.",
 		"options": {
-			"a": "true
-			"b": "false",",
+			"a": "true",
+			"b": "false",
 			"c": "",
 			"d": ""
 		},
@@ -97,8 +96,8 @@ dengue virus.",
 		"id": 9,
 		"question": "Citrus canker is transmitted by insects.",
 		"options": {
-			"a": "true
-			"b": "false",",
+			"a": "true",
+			"b": "false",
 			"c": "",
 			"d": ""
 		},
@@ -108,8 +107,8 @@ dengue virus.",
 		"id": 10,
 		"question": "Yeast is used in the large scale productionof alcohol.",
 		"options": {
-			"a": "true
-			"b": "false",",
+			"a": "true",
+			"b": "false",
 			"c": "",
 			"d": ""
 		},

@@ -5,23 +5,23 @@
  "quests": [
 	{
 		"id": 1,
-		"question": "QUESTION",
+		"question": "society is constantly changing with additions, assimilations and omissions from within and outside.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Human",
+			"b": "Animal",
+			"c": "Forest",
+			"d": "Nature"
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 2,
-		"question": "QUESTION",
+		"question": "The First women doctor in India was",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Dharmambal",
+			"b": "Muthulakshmi Ammaiyar",
+			"c": "Moovalur Ramamirdham",
+			"d": "Panditha Ramabai"
 		},
 		"answer": "ANS"
 	},
@@ -38,188 +38,167 @@
 	},
 	{
 		"id": 4,
-		"question": "QUESTION",
+		"question": "The practice of sati was abolished in",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "1827",
+			"b": "1828",
+			"c": "1829",
+			"d": "1830"
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 5,
-		"question": "QUESTION",
+		"question": "Which of the following was/were the reform movement(s)?",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Brahma Samaj",
+			"b": "Prarthana Samaj",
+			"c": "Arya Samaj",
+			"d": "all the above"
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 6,
-		"question": "QUESTION",
+		"question": "The Bethune school was founded in by J.E.D. Bethune.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "1848",
+			"b": "1849",
+			"c": "1850",
+			"d": "1851"
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 7,
-		"question": "QUESTION",
+		"question": "Which commission recommended to start primary schools for girls in 1882 ?",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Wood’s",
+			"b": "Welby",
+			"c": "Hunter",
+			"d": "Muddiman"
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 8,
-		"question": "QUESTION",
+		"question": "Sarada’s child Marriage Bill fixing the minimum marriageable age for girls at",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "11",
+			"b": "12",
+			"c": "13",
+			"d": "14"
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 9,
-		"question": "QUESTION",
+		"question": "Theosophical society",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Italian traveler",
+			"b": "Social evil",
+			"c": "Annie Besant",
+			"d": "Pandita"
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 10,
-		"question": "QUESTION",
+		"question": "Sarada Sadan",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Italian traveler",
+			"b": "Social evil",
+			"c": "Annie Besant",
+			"d": "Pandita"
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 11,
-		"question": "QUESTION",
+		"question": "Wood’s Despatch",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Italian traveler",
+			"b": "Social evil",
+			"c": "Annie Besant",
+			"d": "Pandita"
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 12,
-		"question": "QUESTION",
+		"question": "Niccolo Conti",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Italian traveler",
+			"b": "Social evil",
+			"c": "Annie Besant",
+			"d": "Pandita"
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 13,
-		"question": "QUESTION",
+		"question": "Dowry",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "Italian traveler",
+			"b": "Social evil",
+			"c": "Annie Besant",
+			"d": "Pandita"
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 14,
-		"question": "QUESTION",
+		"question": "Women were honoured in Rig Vedic
+period.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 15,
-		"question": "QUESTION",
+		"question": "Devadasi system was a social evil.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 16,
-		"question": "QUESTION",
+		"question": "Raja Rammohan Roy, was the pioneer of Indian social reform movement.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 17,
-		"question": "QUESTION",
+		"question": "Reservation of 23% to women envisaged an improvement in the socio-political status of women.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
 		"answer": "ANS"
 	},
 	{
 		"id": 18,
-		"question": "QUESTION",
+		"question": "The age of marriage was raised for boys and girls by the Sharda Act of 1930.",
 		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-	{
-		"id": 19,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
-		},
-		"answer": "ANS"
-	},
-{
-		"id": 20,
-		"question": "QUESTION",
-		"options": {
-			"a": "OPTION 1",
-			"b": "OPTION 2",
-			"c": "OPTION 3",
-			"d": "OPTION 4"
+			"a": "True",
+			"b": "False",
+			"c": "",
+			"d": ""
 		},
 		"answer": "ANS"
 	}

@@ -4,10 +4,10 @@
  "grade": "c4",
  "quests": [
 {
- "textItems":["1. QUESTION ", " <br/>2. QUESTION ", ".<br/>3. QUESTION ", "<br/>4. QUESTION ", "."],
+ "textItems":["1. ___________ of a state enjoy full civil and political rights. ", " <br/>2. Our Indian Constitution provides for only ______________citizenship. ", ".<br/>3.An Indian citizen who is residing outside India and holds an Indian passport are called__________________.", "<br/>4. All have right and __________responsibility citizens. ","<br/>5.__________ is an idea enabling young people to access and participate in shaping modern society. ", "."],
  "anItems": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
- "anItemsCorrect": [1,5,7,9],
- "anLabels": ["ANS 1", "ANS 2", "ANS 3", "ANS 4", "ANS 5", "ANS 6", "ANS 7", "ANS 8", "ANS 9", "ANS 10"],
+ "anItemsCorrect": [3,6,9,0,2],
+ "anLabels": ["Civic", "India", "Global citizenship", "Citizens", "Civil", "rights", "single", "people", "Non-Resident-Indian", "state"],
  "blockSize": 25,
  "elementAnId": "fillblank-ph",
  "elementTextId": "fillblank-text", 

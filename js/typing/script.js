@@ -75,7 +75,8 @@ function initTimer() {
 }
 
 function resetGame() {
-    loadParagraph();
+    //loadParagraph();
+	formatjson(questions);
     clearInterval(timer);
     timeLeft = maxTime;
     charIndex = mistakes = isTyping = 0;
